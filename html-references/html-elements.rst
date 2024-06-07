@@ -368,3 +368,6 @@ HTML Elements
    * - ``<br>``
      - To insert a single line break within a text block. It does not have a closing tag. It is commonly used to separate lines of text within a paragraph or to start a new line in a poem or address.
        Example: ``<p>This is a line.<br>This is another line.</p>``
+   * - ``Non-Breaking Space (&nbsp;)``
+   - Represents a non-breaking space.
+   - Example: `&nbsp;`
