@@ -95,11 +95,59 @@ HTML Elements
      - Used for drawing graphics via scripting (usually JavaScript).
    * - ``<svg>``
      - Defines vector-based graphics.
+   * - ``<math>``
+     - Defines a container for mathematical equations.
    * - ``<details>``, ``<summary>``
      - Defines additional details that the user can view or hide, with a visible heading.
    * - ``<dialog>``
      - Defines a dialog box or window.
-   * - ``<progress>``
-     - Represents the progress of a task.
+   * - ``<template>``
+     - Defines a template that can be cloned to produce similar elements.
+   * - ``<blockquote>``
+     - Defines a section that is quoted from another source.
+   * - ``<cite>``
+     - Defines the title of a work (e.g., a book, a song, a movie).
+   * - ``<q>``
+     - Defines a short inline quotation.
+   * - ``<abbr>``
+     - Defines an abbreviation or acronym.
+   * - ``<code>``
+     - Defines a piece of computer code.
+   * - ``<kbd>``
+     - Defines keyboard input.
+   * - ``<samp>``
+     - Defines sample output from a computer program.
+   * - ``<var>``
+     - Defines a variable in programming or in mathematics.
+   * - ``<mark>``
+     - Defines marked or highlighted text.
+   * - ``<sup>``
+     - Defines superscripted text.
+   * - ``<sub>``
+     - Defines subscripted text.
+   * - ``<time>``
+     - Defines a specific time (or datetime).
+   * - ``<data>``
+     - Links the content with machine-readable data.
    * - ``<meter>``
      - Represents a scalar measurement within a known range (e.g., disk usage).
+   * - ``<progress>``
+     - Represents the progress of a task.
+   * - ``<ruby>``, ``<rt>``, ``<rp>``
+     - Defines ruby annotations for East Asian typography.
+   * - ``<bdo>``
+     - Defines the direction of text display.
+   * - ``<wbr>``
+     - Defines a possible line-break.
+   * - ``<figcaption>``
+     - Defines a caption for a ``<figure>`` element.
+   * - ``<slot>``
+     - Defines a slot for inserting HTML content.
+   * - ``<slot>`` (in Shadow DOM)
+     - Defines a shadow tree insertion point.
+   * - ``<shadow>`` (deprecated)
+     - Defines a shadow tree.
+   * - ``<slot>`` (in Slotable DOM elements)
+     - Defines a placeholder slot.
+   * - ``<slot>``
+     - Defines a placeholder slot.
