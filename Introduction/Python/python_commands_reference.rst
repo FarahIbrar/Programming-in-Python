@@ -205,3 +205,63 @@ Python Commands Reference
    * - `id`
      - Returns the identity of an object.
      - ``obj_id = id([])``
+   * - `+`
+     - Addition operator
+     - ``2 + 3``
+   * - `-`
+     - Subtraction operator
+     - ``5 - 2``
+   * - `*`
+     - Multiplication operator
+     - ``3 * 4``
+   * - `/`
+     - Division operator
+     - ``10 / 2``
+   * - `==`
+     - Equality comparison operator
+     - ``x == y``
+   * - `=`
+     - Assignment operator
+     - ``x = 5``
+   * - `equation`
+     - Mathematical equation
+     - ``x = 2 * (y + 3)``
+   * - `.capitalize()`
+     - Returns a capitalized version of the string
+     - ``"hello".capitalize()``
+   * - `.upper()`
+     - Converts a string to uppercase
+     - `"hello".upper()`
+   * - `.title()`
+     - Converts the first character of each word to uppercase
+     - ``"hello world".title()``
+   * - `.lower()`
+     - Converts a string to lowercase
+     - ``"HELLO".lower()``
+   * - `True`
+     - Boolean value representing true
+     - ``a = True``
+   * - `False`
+     - Boolean value representing false
+     - ``b = False``
+   * - `>=`
+     - Greater than or equal to comparison operator
+     - ``if x >= y:``
+   * - `if/else`
+     - Conditional statement
+     - ``if condition:``
+   * - `int(input("Enter a value:"))`
+     - Reads and converts input to an integer
+     - ``num = int(input("Enter a number: "))``
+   * - `and`
+     - Logical operator - and
+     - ``if x and y >= z:``
+   * - `type(int(input("Enter a value:")))`
+     - Reads input, converts to int, and checks type
+     - ``type(int(input("Enter a value: ")))``
+   * - `try/except`
+     - Exception handling
+     - ``try:``
+   * - `if num is not None:`
+     - Checks if variable `num` is not None
+     - ``if num is not None:``
