@@ -231,7 +231,7 @@ Python Commands Reference
      - ``"hello".capitalize()``
    * - `.upper()`
      - Converts a string to uppercase
-     - `"hello".upper()`
+     - ``"hello".upper()``
    * - `.title()`
      - Converts the first character of each word to uppercase
      - ``"hello world".title()``
