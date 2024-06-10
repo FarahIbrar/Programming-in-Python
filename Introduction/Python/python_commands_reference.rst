@@ -148,7 +148,7 @@ Python Commands Reference
    * - `any`
      - Returns True if any element of the iterable is true.
      - ``any_true = any([False, True, False])``
-   * - `sorted`
+   * - `sort`
      - Returns a new sorted list from the elements of any iterable.
      - ``sorted_list = sorted([3, 1, 2])``
    * - `reversed`
