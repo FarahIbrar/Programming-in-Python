@@ -233,6 +233,11 @@ This repository contains a comprehensive collection of Python programming concep
 
 ---
 
+## Images
+A lot of images are availabe in the images folder to refer back to the results acieved throughout various analysis. 
+
+---
+
 ## Summary of What Did I Learn?
 
 - Throughout this project, I expanded my knowledge across various domains of Python programming and data science. 
