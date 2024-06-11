@@ -520,9 +520,6 @@ Python Commands Reference
    * - `matrix`
      - Represents a matrix.
      - ``matrix = [[1, 2], [3, 4]]``
-   * - `scandling`
-     - This term does not appear to be a recognized Python command. If you meant something else, please clarify.
-     - -
    * - `K-Nearest Neighbors (KNN)`
      - A supervised machine learning algorithm used for classification and regression.
      - ``from sklearn.neighbors import KNeighborsClassifier``
