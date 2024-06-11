@@ -265,3 +265,264 @@ Python Commands Reference
    * - `if num is not None:`
      - Checks if variable `num` is not None
      - ``if num is not None:``
+   * - `remove`
+     - Removes the first occurrence of a value from a list.
+     - ``numbers.remove(3)``
+   * - `extend`
+     - Adds all elements of a list to another list.
+     - ``numbers.extend([6, 7, 8])``
+   * - `insert`
+     - Inserts an item at a specified position in a list.
+     - ``numbers.insert(0, 1)``
+   * - `index`
+     - Returns the index of the first occurrence of a value in a list.
+     - ``index = numbers.index(2)``
+   * - `loc`
+     - Returns label-based indexer.
+     - ``print(df.loc[[1, 3]])``
+   * - `for in (for loop)`
+     - Iterates over a sequence.
+     - ``for item in my_list: print(item)``
+   * - `for in range`
+     - Iterates over a sequence of numbers.
+     - ``for i in range(5): print(i)``
+   * - `factorial`
+     - Returns the factorial of a number.
+     - ``import math; factorial = math.factorial(5)``
+   * - `if else`
+     - Executes a block of code if a condition is true, otherwise another block.
+     - ``x = 10; result = "Positive" if x > 0 else "Non-positive"``
+   * - `square/**`
+     - Raises a number to the power of two.
+     - ``square = 5 ** 2``
+   * - `[ ]`
+     - Creates a list or accesses elements of a list.
+     - ``my_list = [1, 2, 3]; x = my_list[0]``
+   * - `{ }`
+     - Creates a dictionary or sets.
+     - ``my_dict = {'a': 1, 'b': 2}; my_set = {1, 2, 3}``
+   * - `key`
+     - Accesses the value associated with a key in a dictionary.
+     - ``value = my_dict['a']``
+   * - `union`
+     - Returns a set containing the union of two or more sets.
+     - ``set1 = {1, 2, 3}; set2 = {3, 4, 5}; union_set = set1 | set2``
+   * - `intersection`
+     - Returns a set containing the intersection of two or more sets.
+     - ``intersection_set = set1 & set2``
+   * - `difference`
+     - Returns a set containing the difference between two or more sets.
+     - ``difference_set = set1 - set2``
+   * - `subset`
+     - Returns True if all elements of a set are present in another set.
+     - ``is_subset = set1 <= set2``
+   * - `superset`
+     - Returns True if a set has all elements of another set.
+     - ``is_superset = set1 >= set2``
+   * - `close`
+     - Closes a file.
+     - ``file.close()``
+   * - `write “w” ()`
+     - Writes to a file (creates a new file if it does not exist).
+     - ``with open("file.txt", "w") as f: f.write("Hello, World!")``
+   * - `create “x” ()`
+     - Creates a new file.
+     - ``with open("file.txt", "x") as f: pass``
+   * - `close ()`
+     - Closes a file.
+     - ``file.close()``
+   * - `open ()`
+     - Opens a file and returns a file object.
+     - ``with open("file.txt", "r") as f: content = f.read()``
+   * - `read “r” ()`
+     - Reads from a file.
+     - ``with open("file.txt", "r") as f: content = f.read()``
+   * - `append “a” ()`
+     - Appends to a file.
+     - ``with open("file.txt", "a") as f: f.write("New line")``
+   * - `readline ()`
+     - Reads a single line from a file.
+     - ``with open("file.txt", "r") as f: line = f.readline()``
+   * - `\n`
+     - Represents a newline character.
+     - ``multiline_str = "Line 1\nLine 2"``
+   * - `strip ()`
+     - Removes leading and trailing whitespace from a string.
+     - ``clean_str = "   Hello   ".strip()``
+   * - `%d`
+     - Format specifier for integer.
+     - ``num = 5; print("Number: %d" % num)``
+   * - `%x`
+     - Format specifier for hexadecimal integer.
+     - ``num = 10; print("Hexadecimal: %x" % num)``
+   * - `with`
+     - Simplifies exception handling by encapsulating common preparation and cleanup tasks.
+     - ``with open("file.txt") as f: content = f.read()``
+   * - `string`
+     - Defines a string.
+     - ``my_str = "Hello, World!"``
+   * - `enumerate`
+     - Returns an enumerate object.
+     - ``for i, value in enumerate(['a', 'b', 'c']): print(i, value)``
+   * - `break`
+     - Terminates the loop statement and transfers execution to the statement immediately following the loop.
+     - ``for i in range(10): if i == 5: break``
+   * - `binary mode`
+     - Opens a file in binary mode.
+     - ``with open("file.bin", "wb") as f: f.write(b'binary data')``
+   * - `split`
+     - Splits a string into a list.
+     - ``words = "Hello World".split()``
+   * - `join`
+     - Joins elements of a list into a string.
+     - ``sentence = " ".join(words)``
+   * - `for in range`
+     - Iterates over a sequence of numbers.
+     - ``for i in range(5): print(i)``
+   * - `range(start, end, step)`
+     - Generates a sequence of numbers with a specified start, end, and step.
+     - ``for i in range(1, 10, 2): print(i)``
+   * - `isinstance`
+     - Returns True if the specified object is of the specified type.
+     - ``is_num = isinstance(5, int)``
+   * - `sorted`
+     - Returns a new sorted list from the elements of any iterable.
+     - ``sorted_list = sorted([3, 1, 2])``
+   * - `bool`
+     - Converts a value to a boolean.
+     - ``b = bool(1)``
+   * - `if`
+     - Executes a block of code if a condition is true.
+     - ``if x > 0: print("Positive")``
+   * - `if-elif`
+     - Checks another condition if the preceding `if` condition is false.
+     - ``if x > 0: print("Positive") elif x == 0: print("Zero")``
+   * - `if-else`
+     - Executes a block of code if a condition is true, otherwise another block.
+     - ``x = 10; result = "Positive" if x > 0 else "Non-positive"``
+   * - `else`
+     - Executes a block of code if the preceding `if` condition(s) are false.
+     - ``if x > 0: print("Positive") else: print("Non-positive")``
+   * - `elif`
+     - Checks another condition if the preceding `if` condition is false.
+     - ``if x > 0: print("Positive") elif x == 0: print("Zero")``
+   * - `weather forecast`
+     - Provides weather information.
+     - ``weather_forecast = {"temperature": 25, "conditions": "sunny"}``
+   * - `for`
+     - Iterates over a sequence.
+     - ``for item in my_list: print(item)``
+   * - `break`
+     - Terminates the loop statement and transfers execution to the statement immediately following the loop.
+     - ``for i in range(10): if i == 5: break``
+   * - `continue`
+     - Skips the rest of the loop and continues with the next iteration.
+     - ``for i in range(10): if i == 5: continue``
+   * - `else in for loop`
+     - Executes a block of code when the loop is finished executing.
+     - ``for i in range(3): print(i) else: print("Finished")``
+   * - `nested`
+     - A loop inside another loop.
+     - ``for i in range(3): for j in range(2): print(i, j)``
+   * - `nested loop`
+     - A loop inside another loop.
+     - ``for i in range(3): for j in range(2): print(i, j)``
+   * - `def`
+     - Defines a function.
+     - ``def greet(): print("Hello")``
+   * - `return`
+     - Exits a function and returns a value.
+     - ``def add(a, b): return a + b``
+   * - `info`
+     - Provides a concise summary of a DataFrame.
+     - ``data.info()``
+   * - `shape`
+     - Returns a tuple representing the dimensionality of a DataFrame.
+     - ``shape = data.shape``
+   * - `head`
+     - Returns the first n rows of a DataFrame.
+     - ``top_rows = data.head()``
+   * - `tail`
+     - Returns the last n rows of a DataFrame.
+     - ``bottom_rows = data.tail()``
+   * - `.columns`
+     - Returns the column labels of a DataFrame.
+     - ``columns = data.columns``
+   * - `.index()`
+     - Returns the index labels of a DataFrame.
+     - ``index = data.index``
+   * - `.describe()`
+     - Generates descriptive statistics of a DataFrame.
+     - ``stats = data.describe()``
+   * - `.iloc`
+     - Purely integer-location based indexing for selection by position.
+     - ``data.iloc[1]``
+   * - `data.iloc[1]`
+     - Selects a specific row in a DataFrame by index location.
+     - ``row = data.iloc[1]``
+   * - `data.iloc[:, 0]`
+     - Selects a specific column in a DataFrame by index location.
+     - ``column = data.iloc[:, 0]``
+   * - `.copy()`
+     - Creates a copy of a DataFrame.
+     - ``data_copy = data.copy()``
+   * - `.concat()`
+     - Concatenates two or more DataFrames.
+     - ``combined_data = pd.concat([data1, data2])``
+   * - `.dropna()`
+     - Removes rows or columns with missing values (NaN).
+     - ``clean_data = data.dropna()``
+   * - `.mean()`
+     - Computes the mean of numeric columns in a DataFrame.
+     - ``avg = data.mean()``
+   * - `.rename()`
+     - Renames columns or index labels of a DataFrame.
+     - ``data.rename(columns={'A': 'a', 'B': 'b'})``
+   * - `.plot()`
+     - Plots the data in a DataFrame.
+     - ``data.plot()``
+   * - `correlation_matrix`
+     - Displays a correlation matrix.
+     - ``corr_matrix = data.corr()``
+   * - `annot`
+     - Annotates the cells of a heatmap or other plot.
+     - ``sns.heatmap(corr_matrix, annot=True)``
+   * - `cmap`
+     - Specifies the colormap for a plot.
+     - ``sns.heatmap(corr_matrix, cmap='coolwarm')``
+   * - `fmt`
+     - Formats the text or numbers in a plot.
+     - ``sns.heatmap(corr_matrix, fmt='.2f')``
+   * - `.idxmax`
+     - Returns the index of the first occurrence of the maximum value.
+     - ``max_index = data['column'].idxmax()``
+   * - `subplot`
+     - Creates a subplot in a plot.
+     - ``plt.subplot(1, 2, 1)``
+   * - `countplot`
+     - Shows the counts of observations in each categorical bin.
+     - ``sns.countplot(x='column', data=data)``
+   * - `kind`
+     - Specifies the type of plot to be created.
+     - ``data.plot(kind='scatter', x='A', y='B')``
+   * - `bbox_to_anchor`
+     - Specifies the bounding box of a legend.
+     - ``plt.legend(bbox_to_anchor=(1.05, 1))``
+   * - `plot.map`
+     - Maps a function to each element of a plot.
+     - ``sns.pairplot(data.map(func))``
+   * - `map`
+     - Applies a function to each element of a series or DataFrame.
+     - ``data['column'].map(func)``
+   * - `correlation`
+     - Measures the strength and direction of the linear relationship between two variables.
+     - ``corr = data['A'].corr(data['B'])``
+   * - `matrix`
+     - Represents a matrix.
+     - ``matrix = [[1, 2], [3, 4]]``
+   * - `scandling`
+     - This term does not appear to be a recognized Python command. If you meant something else, please clarify.
+     - -
+   * - `K-Nearest Neighbors (KNN)`
+     - A supervised machine learning algorithm used for classification and regression.
+     - ``from sklearn.neighbors import KNeighborsClassifier``
