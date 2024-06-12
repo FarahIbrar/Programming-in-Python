@@ -709,3 +709,147 @@ Python Commands Reference
    * - `Clustering with K-Means`
      - Perform K-Means clustering and visualize clusters.
      - `kmeans = KMeans(n_clusters=3); kmeans.fit(X); plt.scatter(X[:, 0], X[:, 1], c=kmeans.labels_)`
+   * - `pd.read_csv`
+     - Read a comma-separated values (CSV) file into DataFrame.
+     - `iris_dataset = pd.read_csv('/Users/farah/Desktop/iris.csv')`
+   * - `describe`
+     - Generate descriptive statistics.
+     - `summary_stats = iris_dataset.describe()`
+   * - `print`
+     - Print the specified message.
+     - `print(summary_stats)`
+   * - `sns.pairplot`
+     - Plot pairwise relationships in a dataset.
+     - `sns.pairplot(iris_dataset, hue='species')`
+   * - `plt.savefig`
+     - Save the current figure.
+     - `plt.savefig('/Users/farah/Desktop/pairplot.png')`
+   * - `plt.show`
+     - Display a figure.
+     - `plt.show()`
+   * - `plt.figure`
+     - Create a new figure.
+     - `plt.figure(figsize=(10, 6))`
+   * - `sns.boxplot`
+     - Draw a box plot to show distributions.
+     - `sns.boxplot(data=iris_dataset, orient="h", palette="Set2")`
+   * - `sns.violinplot`
+     - Draw a combination of boxplot and KDE.
+     - `sns.violinplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - `sns.swarmplot`
+     - Draw a categorical scatterplot with non-overlapping points.
+     - `sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - `sns.jointplot`
+     - Draw a plot of two variables with bivariate and univariate graphs.
+     - `sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")`
+   * - `sns.pairplot`
+     - Plot pairwise relationships using Kernel Density Estimation.
+     - `sns.pairplot(iris_dataset, kind="kde", hue="species")`
+   * - `sns.FacetGrid`
+     - Multi-plot grid for plotting conditional relationships.
+     - `plot = sns.FacetGrid(iris_dataset, hue="species", height=5)`
+   * - `sns.histplot`
+     - Plot a histogram.
+     - `plot.map(sns.histplot, "sepal_length").add_legend()`
+   * - `sns.boxenplot`
+     - Draw an enhanced box plot for larger datasets.
+     - `sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - `sns.ecdfplot`
+     - Plot an empirical cumulative distribution function.
+     - `sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")`
+   * - `sns.kdeplot`
+     - Plot a kernel density estimate.
+     - `sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)`
+   * - `sns.rugplot`
+     - Plot marginal distributions with ticks.
+     - `sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")`
+   * - `pd.plotting.scatter_matrix`
+     - Create a matrix of scatter plots.
+     - `pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')`
+   * - `andrews_curves`
+     - Plot Andrews curves for visualizing clusters.
+     - `andrews_curves(iris_dataset, "species")`
+   * - `parallel_coordinates`
+     - Plot parallel coordinates for multidimensional data.
+     - `parallel_coordinates(iris_dataset, "species")`
+   * - `radviz`
+     - Project multi-dimensional data into 2D.
+     - `radviz(iris_dataset, "species")`
+   * - `PCA`
+     - Perform Principal Component Analysis.
+     - `pca = PCA(n_components=2)`
+   * - `fit_transform`
+     - Fit and transform data using PCA.
+     - `pca_components = pca.fit_transform(features_standardized)`
+   * - `pd.DataFrame`
+     - Create a DataFrame.
+     - `pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])`
+   * - `pd.concat`
+     - Concatenate DataFrames.
+     - `pca_df = pd.concat([pca_df, iris_dataset[['species']]], axis=1)`
+   * - `sns.scatterplot`
+     - Draw a scatter plot.
+     - `sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)`
+   * - `plt.title`
+     - Set a title of the current axes.
+     - `plt.title('PCA Biplot of Iris Dataset')`
+   * - Summary statistics
+     - Generate descriptive statistics for a dataset.
+     - `summary_stats = iris_dataset.describe()`
+   * - Pairwise relationships
+     - Visualize the pairwise relationships between features.
+     - `sns.pairplot(iris_dataset, hue='species')`
+   * - Pairplot
+     - Plot pairwise relationships.
+     - `sns.pairplot(iris_dataset, hue='species')`
+   * - Box plot
+     - Visual representation of the distribution of data.
+     - `sns.boxplot(data=iris_dataset, orient="h", palette="Set2")`
+   * - Violin plot
+     - Combination of box plot and KDE plot.
+     - `sns.violinplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - Swarm plot
+     - Scatter plot with non-overlapping points.
+     - `sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - Joint plot
+     - Bivariate scatter plots and univariate histograms.
+     - `sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")`
+   * - Kernel Density Estimation (KDE)
+     - Estimate the probability density function.
+     - `sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)`
+   * - FacetGrid
+     - Multi-plot grid for conditional relationships.
+     - `plot = sns.FacetGrid(iris_dataset, hue="species", height=5)`
+   * - Boxen plot
+     - Enhanced box plot for large datasets.
+     - `sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)`
+   * - Empirical Cumulative Distribution Function (ECDF)
+     - Plot the cumulative distribution of data.
+     - `sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")`
+   * - Rug plot
+     - Show individual data points along with a density plot.
+     - `sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")`
+   * - Scatter plot matrix
+     - Matrix of scatter plots for all feature pairs.
+     - `pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')`
+   * - Andrews curves
+     - Visual representation of multivariate data.
+     - `andrews_curves(iris_dataset, "species")`
+   * - Parallel coordinates
+     - Visualize multi-dimensional data on parallel axes.
+     - `parallel_coordinates(iris_dataset, "species")`
+   * - RadViz
+     - Project multi-dimensional data into 2D.
+     - `radviz(iris_dataset, "species")`
+   * - Principal Component Analysis (PCA)
+     - Reduce dimensionality of the data.
+     - `pca = PCA(n_components=2)`
+   * - Standardization of features
+     - Standardize features before applying PCA.
+     - `features_standardized = (features - features.mean()) / features.std()`
+   * - DataFrame creation
+     - Create a DataFrame with PCA components.
+     - `pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])`
+   * - Data visualization
+     - Plot PCA components.
+     - `sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)`
