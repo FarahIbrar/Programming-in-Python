@@ -3,6 +3,7 @@ Concepts Information
 
 .. list-table::
    :header-rows: 1
+   :widths: 20 50 20 30
 
    * - Concept
      - Description
@@ -72,84 +73,83 @@ Concepts Information
      - A scatterplot of data points using the first two principal components as axes.
      - To visualize the reduced dimensional representation of data after PCA.
      - A scatter plot where each point represents an observation, and the position of the point is determined by the first two principal components.
-   * Missing Value Analysis
-    - Description: Identifying and handling missing data in datasets.
-    - When to Use: Before training a model to ensure all data is available.
-    - Typical Output: Amount and distribution of missing values.
-   * Unique Value Counts
-    - Description: Counting distinct values in categorical variables.
-    - When to Use: Understanding the diversity of categorical data.
-    - Typical Output: Number of unique categories and their frequencies.
-   * Species Distribution
-    - Description: Distribution of classes or categories in a dataset.
-    - When to Use: Assessing class balance before model training.
-    - Typical Output: Proportions of different classes in the dataset.
-   * Skewness and Kurtosis
-    - Description: Measures of asymmetry and tail heaviness of a distribution.
-    - When to Use: Assessing the shape of data distributions.
-    - Typical Output: Degree and nature of deviation from normal distribution.
-   * Normality Test (Shapiro-Wilk test)
-    - Description: Statistical test to check if a variable is normally distributed.
-    - When to Use: Before using parametric statistical methods.
-    - Typical Output: Whether a variable follows a normal distribution.
-   * Feature Scaling
-    - Description: Scaling numerical features to a standard range.
-    - When to Use: For algorithms sensitive to feature scaling.
-    - Typical Output: Uniform range of values across different features.
-   * Polynomial Features
-    - Description: Generating polynomial combinations of features.
-    - When to Use: Capturing non-linear relationships in data.
-    - Typical Output: Enhanced model flexibility with polynomial terms.
-   * Principal Component Analysis (PCA)
-    - Description: Dimensionality reduction technique.
-    - When to Use: Reducing the number of features while retaining variance.
-    - Typical Output: New dimensions that explain the maximum variance.
-  * Logistic Regression
-    - Description: Linear model for binary classification.
-    - When to Use: Predicting binary outcomes based on features.
-    - Typical Output: Probability of class membership for each observation.
-  * K-Nearest Neighbors (KNN)
-    - Description: Instance-based learning for classification and regression.
-    - When to Use: Classifying data based on similarity to known examples.
-    - Typical Output: Class membership based on nearest neighbors.
-  * Decision Tree Classifier
-    - Description: Non-parametric supervised learning method.
-    - When to Use: Predicting outcomes by learning simple decision rules.
-    - Typical Output: Flowchart-like structure of decisions made.
-  * Random Forest Classifier
-    - Description: Ensemble learning method using multiple decision trees.
-    - When to Use: Predicting outcomes with improved accuracy.
-    - Typical Output: Combination of decision trees' predictions.
-  * Support Vector Machine (SVM)
-    - Description: Supervised learning model for classification and regression.
-    - When to Use: Classifying data by finding an optimal hyperplane.
-    - Typical Output: Decision boundary with maximum margin.
-  * Cross-Validation
-    - Description: Technique to evaluate predictive models.
-    - When to Use: Assessing model performance with limited data.
-    - Typical Output: Model performance metrics across different data subsets.
-  * Hyperparameter Tuning (Grid Search)
-    - Description: Method for optimizing model parameters.
-    - When to Use: Maximizing model performance by tuning parameters.
-    - Typical Output: Best set of parameters for optimal model performance.
-  * Confusion Matrix
-    - Description: Table showing true/false positive/negative predictions.
-    - When to Use: Evaluating performance of classification models.
-    - Typical Output: Breakdown of model's predictions versus actual outcomes.
-  * Classification Report
-    - Description: Summary of classification model's performance metrics.
-    - When to Use: Assessing precision, recall, F1-score, and support.
-    - Typical Output: Model's precision, recall, F1-score for each class.
-  * Feature Importance
-    - Description: Technique to identify most important features in a model.
-    - When to Use: Understanding which features contribute most to predictions.
-    - Typical Output: Ranking of features based on their importance.
-  * ROC Curve
-    - Description: Receiver Operating Characteristic curve.
-    - When to Use: Evaluating binary classification model's performance.
-    - Typical Output: Trade-off between true positive rate and false positive rate.
-  * Clustering (K-Means)
-    - Description: Unsupervised learning method to group data points.
-    - When to Use: Discovering natural groupings in data.
-    - Typical Output: Clusters of data points with similar characteristics.
-
+   * - Missing Value Analysis
+     - Identifying and handling missing data in datasets.
+     - Before training a model to ensure all data is available.
+     - Amount and distribution of missing values.
+   * - Unique Value Counts
+     - Counting distinct values in categorical variables.
+     - Understanding the diversity of categorical data.
+     - Number of unique categories and their frequencies.
+   * - Species Distribution
+     - Distribution of classes or categories in a dataset.
+     - Assessing class balance before model training.
+     - Proportions of different classes in the dataset.
+   * - Skewness and Kurtosis
+     - Measures of asymmetry and tail heaviness of a distribution.
+     - Assessing the shape of data distributions.
+     - Degree and nature of deviation from normal distribution.
+   * - Normality Test (Shapiro-Wilk test)
+     - Statistical test to check if a variable is normally distributed.
+     - Before using parametric statistical methods.
+     - Whether a variable follows a normal distribution.
+   * - Feature Scaling
+     - Scaling numerical features to a standard range.
+     - For algorithms sensitive to feature scaling.
+     - Uniform range of values across different features.
+   * - Polynomial Features
+     - Generating polynomial combinations of features.
+     - Capturing non-linear relationships in data.
+     - Enhanced model flexibility with polynomial terms.
+   * - Principal Component Analysis (PCA)
+     - Dimensionality reduction technique.
+     - Reducing the number of features while retaining variance.
+     - New dimensions that explain the maximum variance.
+   * - Logistic Regression
+     - Linear model for binary classification.
+     - Predicting binary outcomes based on features.
+     - Probability of class membership for each observation.
+   * - K-Nearest Neighbors (KNN)
+     - Instance-based learning for classification and regression.
+     - Classifying data based on similarity to known examples.
+     - Class membership based on nearest neighbors.
+   * - Decision Tree Classifier
+     - Non-parametric supervised learning method.
+     - Predicting outcomes by learning simple decision rules.
+     - Flowchart-like structure of decisions made.
+   * - Random Forest Classifier
+     - Ensemble learning method using multiple decision trees.
+     - Predicting outcomes with improved accuracy.
+     - Combination of decision trees' predictions.
+   * - Support Vector Machine (SVM)
+     - Supervised learning model for classification and regression.
+     - Classifying data by finding an optimal hyperplane.
+     - Decision boundary with maximum margin.
+   * - Cross-Validation
+     - Technique to evaluate predictive models.
+     - Assessing model performance with limited data.
+     - Model performance metrics across different data subsets.
+   * - Hyperparameter Tuning (Grid Search)
+     - Method for optimizing model parameters.
+     - Maximizing model performance by tuning parameters.
+     - Best set of parameters for optimal model performance.
+   * - Confusion Matrix
+     - Table showing true/false positive/negative predictions.
+     - Evaluating performance of classification models.
+     - Breakdown of model's predictions versus actual outcomes.
+   * - Classification Report
+     - Summary of classification model's performance metrics.
+     - Assessing precision, recall, F1-score, and support.
+     - Model's precision, recall, F1-score for each class.
+   * - Feature Importance
+     - Technique to identify most important features in a model.
+     - Understanding which features contribute most to predictions.
+     - Ranking of features based on their importance.
+   * - ROC Curve
+     - Receiver Operating Characteristic curve.
+     - Evaluating binary classification model's performance.
+     - Trade-off between true positive rate and false positive rate.
+   * - Clustering (K-Means)
+     - Unsupervised learning method to group data points.
+     - Discovering natural groupings in data.
+     - Clusters of data points with similar characteristics.
