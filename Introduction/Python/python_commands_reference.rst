@@ -525,331 +525,331 @@ Python Commands Reference
      - ``from sklearn.neighbors import KNeighborsClassifier``
    * - `import pandas as pd`
      - Import the pandas library for data manipulation.
-     - `import pandas as pd`
+     - ``import pandas as pd``
    * - `pd.read_csv`
      - Read a comma-separated values (CSV) file into a DataFrame.
-     - `iris_dataset = pd.read_csv('/path/to/file.csv')`
+     - ``iris_dataset = pd.read_csv('/path/to/file.csv')``
    * - `print`
      - Print the specified message to the console.
-     - `print("Hello, World!")`
+     - ``print("Hello, World!")``
    * - `iris_dataset.head`
      - Return the first n rows of the DataFrame.
-     - `print(iris_dataset.head())`
+     - ``print(iris_dataset.head())``
    * - `iris_dataset.isnull`
      - Detect missing values in the DataFrame.
-     - `missing_values = iris_dataset.isnull().sum()`
+     - ``missing_values = iris_dataset.isnull().sum()``
    * - `iris_dataset.nunique`
      - Count unique values in each column.
-     - `unique_counts = iris_dataset.nunique()`
+     - ``unique_counts = iris_dataset.nunique()``
    * - `iris_dataset['species'].value_counts`
      - Return a Series containing counts of unique values.
-     - `species_distribution = iris_dataset['species'].value_counts()`
+     - ``species_distribution = iris_dataset['species'].value_counts()``
    * - `iris_dataset.skew`
      - Return the skewness of each numeric column.
-     - `skewness = iris_dataset.skew()`
+     - ``skewness = iris_dataset.skew()``
    * - `iris_dataset.kurt`
      - Return the kurtosis of each numeric column.
-     - `kurtosis = iris_dataset.kurt()`
+     - ``kurtosis = iris_dataset.kurt()``
    * - `shapiro`
      - Perform the Shapiro-Wilk test for normality.
-     - `stat, p = shapiro(iris_dataset['column'])`
+     - ``stat, p = shapiro(iris_dataset['column'])``
    * - `StandardScaler`
      - Standardize features by removing the mean and scaling to unit variance.
-     - `scaler = StandardScaler()` 
+     - ``scaler = StandardScaler()``
    * - `PolynomialFeatures`
      - Generate a new feature matrix consisting of all polynomial combinations.
-     - `poly = PolynomialFeatures(degree=2)`
+     - ``poly = PolynomialFeatures(degree=2)``
    * - `PCA`
      - Perform Principal Component Analysis.
-     - `pca = PCA(n_components=2)`
+     - ``pca = PCA(n_components=2)``
    * - `train_test_split`
      - Split arrays or matrices into random train and test subsets.
-     - `X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)`
+     - ``X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)``
    * - `LogisticRegression`
      - Perform logistic regression.
-     - `model = LogisticRegression()`
+     - ``model = LogisticRegression()``
    * - `accuracy_score`
      - Compute the accuracy classification score.
-     - `accuracy = accuracy_score(y_true, y_pred)`
+     - ``accuracy = accuracy_score(y_true, y_pred)``
    * - `KNeighborsClassifier`
      - Classify using k-nearest neighbors.
-     - `knn = KNeighborsClassifier(n_neighbors=5)`
+     - ``knn = KNeighborsClassifier(n_neighbors=5)``
    * - `DecisionTreeClassifier`
      - Build a decision tree classifier.
-     - `tree = DecisionTreeClassifier()`
+     - ``tree = DecisionTreeClassifier()``
    * - `RandomForestClassifier`
      - Build a random forest classifier.
-     - `forest = RandomForestClassifier(n_estimators=100)`
+     - ``forest = RandomForestClassifier(n_estimators=100)``
    * - `SVC`
      - Perform support vector classification.
-     - `svm = SVC(kernel='linear')`
+     - ``svm = SVC(kernel='linear')``
    * - `cross_val_score`
      - Evaluate a score by cross-validation.
-     - `cv_scores = cross_val_score(model, X, y, cv=5)`
+     - ``cv_scores = cross_val_score(model, X, y, cv=5)``
    * - `GridSearchCV`
      - Perform grid search with cross-validation for hyperparameter tuning.
-     - `grid = GridSearchCV(SVC(), param_grid, refit=True)`
+     - ``grid = GridSearchCV(SVC(), param_grid, refit=True)``
    * - `confusion_matrix`
      - Compute confusion matrix to evaluate accuracy.
-     - `cm = confusion_matrix(y_true, y_pred)`
+     - ``cm = confusion_matrix(y_true, y_pred)``
    * - `ConfusionMatrixDisplay`
      - Plot the confusion matrix.
-     - `disp = ConfusionMatrixDisplay(confusion_matrix=cm)`
+     - ``disp = ConfusionMatrixDisplay(confusion_matrix=cm)``
    * - `classification_report`
      - Generate a classification report.
-     - `report = classification_report(y_true, y_pred)`
+     - ``report = classification_report(y_true, y_pred)``
    * - `roc_curve`
      - Compute Receiver Operating Characteristic (ROC).
-     - `fpr, tpr, _ = roc_curve(y_true, y_score)`
+     - ``fpr, tpr, _ = roc_curve(y_true, y_score)``
    * - `auc`
      - Compute Area Under the Curve (AUC) for ROC.
-     - `roc_auc = auc(fpr, tpr)`
+     - ``roc_auc = auc(fpr, tpr)``
    * - `label_binarize`
      - Binarize labels in a one-vs-all fashion.
-     - `y_bin = label_binarize(y, classes=[0, 1, 2])`
+     - ``y_bin = label_binarize(y, classes=[0, 1, 2])``
    * - `OneVsRestClassifier`
      - One-vs-the-rest (OvR) multiclass strategy.
-     - `classifier = OneVsRestClassifier(SVC())`
+     - ``classifier = OneVsRestClassifier(SVC())``
    * - `cycle`
      - Cycle through an iterable indefinitely.
-     - `colors = cycle(['aqua', 'darkorange', 'cornflowerblue'])`
+     - ``colors = cycle(['aqua', 'darkorange', 'cornflowerblue'])``
    * - `plt.figure`
      - Create a new figure.
-     - `plt.figure()`
+     - ``plt.figure()``
    * - `plt.plot`
      - Plot y versus x as lines and/or markers.
-     - `plt.plot(fpr, tpr, label='ROC curve')`
+     - ``plt.plot(fpr, tpr, label='ROC curve')``
    * - `plt.xlim`
      - Set the x-axis view limits.
-     - `plt.xlim([0.0, 1.0])`
+     - ``plt.xlim([0.0, 1.0])``
    * - `plt.ylim`
      - Set the y-axis view limits.
-     - `plt.ylim([0.0, 1.05])`
+     - ``plt.ylim([0.0, 1.05])``
    * - `plt.xlabel`
      - Set the label for the x-axis.
-     - `plt.xlabel('False Positive Rate')`
+     - ``plt.xlabel('False Positive Rate')``
    * - `plt.ylabel`
      - Set the label for the y-axis.
-     - `plt.ylabel('True Positive Rate')`
+     - ``plt.ylabel('True Positive Rate')``
    * - `plt.title`
      - Set the title of the current axes.
-     - `plt.title('Receiver Operating Characteristic')`
+     - ``plt.title('Receiver Operating Characteristic')``
    * - `plt.legend`
      - Place a legend on the axes.
-     - `plt.legend(loc='lower right')`
+     - ``plt.legend(loc='lower right')``
    * - `plt.savefig`
      - Save the current figure.
-     - `plt.savefig('/path/to/figure.png')`
+     - ``plt.savefig('/path/to/figure.png')``
    * - `plt.show`
      - Display all open figures.
-     - `plt.show()`
+     - ``plt.show()``
    * - `KMeans`
      - Perform K-Means clustering.
-     - `kmeans = KMeans(n_clusters=3)`
+     - ``kmeans = KMeans(n_clusters=3)``
    * - `Missing Value Analysis`
      - Check for missing values in the dataset.
-     - `missing_values = iris_dataset.isnull().sum()`
+     - ``missing_values = iris_dataset.isnull().sum()``
    * - `Unique Value Counts`
      - Count the number of unique values in each column.
-     - `unique_counts = iris_dataset.nunique()`
+     - ``unique_counts = iris_dataset.nunique()``
    * - `Species Distribution`
      - Calculate the distribution of each species in the dataset.
-     - `species_distribution = iris_dataset['species'].value_counts()`
+     - ``species_distribution = iris_dataset['species'].value_counts()``
    * - `Skewness and Kurtosis`
      - Calculate skewness and kurtosis for each feature.
-     - `skewness = iris_dataset.skew(); kurtosis = iris_dataset.kurt()`
+     - ``skewness = iris_dataset.skew(); kurtosis = iris_dataset.kurt()``
    * - `Normality Test`
      - Perform a normality test (Shapiro-Wilk test) on each feature.
-     - `stat, p = shapiro(iris_dataset['column'])`
+     - ``stat, p = shapiro(iris_dataset['column'])``
    * - `Feature Scaling`
      - Scale the features using StandardScaler.
-     - `scaler = StandardScaler(); scaled_features = scaler.fit_transform(iris_dataset)`
+     - ``scaler = StandardScaler(); scaled_features = scaler.fit_transform(iris_dataset)``
    * - `Feature Engineering: Polynomial Features`
      - Create polynomial features to increase model complexity.
-     - `poly = PolynomialFeatures(degree=2); poly_features = poly.fit_transform(iris_dataset)`
+     - ``poly = PolynomialFeatures(degree=2); poly_features = poly.fit_transform(iris_dataset)``
    * - `Principal Component Analysis (PCA)`
      - Reduce dimensionality using PCA and explain variance.
-     - `pca = PCA(n_components=2); pca_components = pca.fit_transform(iris_dataset)`
+     - ``pca = PCA(n_components=2); pca_components = pca.fit_transform(iris_dataset)``
    * - `Logistic Regression`
      - Build a logistic regression model to classify species.
-     - `model = LogisticRegression(); model.fit(X_train, y_train)`
+     - ``model = LogisticRegression(); model.fit(X_train, y_train)``
    * - `K-Nearest Neighbors (KNN)`
      - Build and evaluate a KNN classifier.
-     - `knn = KNeighborsClassifier(n_neighbors=5); knn.fit(X_train, y_train)`
+     - ``knn = KNeighborsClassifier(n_neighbors=5); knn.fit(X_train, y_train)``
    * - `Decision Tree Classifier`
      - Build and evaluate a decision tree classifier.
-     - `tree = DecisionTreeClassifier(); tree.fit(X_train, y_train)`
+     - ``tree = DecisionTreeClassifier(); tree.fit(X_train, y_train)``
    * - `Random Forest Classifier`
      - Build and evaluate a random forest classifier.
-     - `forest = RandomForestClassifier(n_estimators=100); forest.fit(X_train, y_train)`
+     - ``forest = RandomForestClassifier(n_estimators=100); forest.fit(X_train, y_train)``
    * - `Support Vector Machine (SVM)`
      - Build and evaluate an SVM classifier.
-     - `svm = SVC(kernel='linear'); svm.fit(X_train, y_train)`
+     - ``svm = SVC(kernel='linear'); svm.fit(X_train, y_train)``
    * - `Cross-Validation`
      - Perform cross-validation to evaluate model performance.
-     - `cv_scores = cross_val_score(model, X, y, cv=5)`
+     - ``cv_scores = cross_val_score(model, X, y, cv=5)``
    * - `Hyperparameter Tuning: Grid Search`
      - Perform grid search for hyperparameter tuning.
-     - `grid = GridSearchCV(SVC(), param_grid, refit=True); grid.fit(X_train, y_train)`
+     - ``grid = GridSearchCV(SVC(), param_grid, refit=True); grid.fit(X_train, y_train)``
    * - `Confusion Matrix`
      - Generate a confusion matrix to evaluate classification performance.
-     - `cm = confusion_matrix(y_true, y_pred); disp = ConfusionMatrixDisplay(confusion_matrix=cm)`
+     - ``cm = confusion_matrix(y_true, y_pred); disp = ConfusionMatrixDisplay(confusion_matrix=cm)``
    * - `Classification Report`
      - Generate a classification report with precision, recall, and F1-score.
-     - `report = classification_report(y_true, y_pred)`
+     - ``report = classification_report(y_true, y_pred)``
    * - `Feature Importance`
      - Calculate and display feature importance from a tree
-     - `importances = model.feature_importances_; plt.barh(range(len(importances)), importances)`
+     - ``importances = model.feature_importances_; plt.barh(range(len(importances)), importances)``
    * - `ROC Curve and AUC`
      - Plot the ROC curve and calculate the AUC for model evaluation.
-     - `fpr, tpr, _ = roc_curve(y_true, y_score); roc_auc = auc(fpr, tpr)`
+     - ``fpr, tpr, _ = roc_curve(y_true, y_score); roc_auc = auc(fpr, tpr)``
    * - `Multiclass ROC Curve`
      - Plot ROC curves for multiclass classification problems.
-     - `colors = cycle(['aqua', 'darkorange', 'cornflowerblue']); for i, color in zip(range(n_classes), colors): plt.plot(fpr[i], tpr[i], color=color)`
+     - ``colors = cycle(['aqua', 'darkorange', 'cornflowerblue']); for i, color in zip(range(n_classes), colors): plt.plot(fpr[i], tpr[i], color=color)``
    * - `Clustering with K-Means`
      - Perform K-Means clustering and visualize clusters.
-     - `kmeans = KMeans(n_clusters=3); kmeans.fit(X); plt.scatter(X[:, 0], X[:, 1], c=kmeans.labels_)`
+     - ``kmeans = KMeans(n_clusters=3); kmeans.fit(X); plt.scatter(X[:, 0], X[:, 1], c=kmeans.labels_)``
    * - `pd.read_csv`
      - Read a comma-separated values (CSV) file into DataFrame.
-     - `iris_dataset = pd.read_csv('/Users/farah/Desktop/iris.csv')`
+     - ``iris_dataset = pd.read_csv('/Users/farah/Desktop/iris.csv')``
    * - `describe`
      - Generate descriptive statistics.
-     - `summary_stats = iris_dataset.describe()`
+     - ``summary_stats = iris_dataset.describe()``
    * - `print`
      - Print the specified message.
-     - `print(summary_stats)`
+     - ``print(summary_stats)``
    * - `sns.pairplot`
      - Plot pairwise relationships in a dataset.
-     - `sns.pairplot(iris_dataset, hue='species')`
+     - ``sns.pairplot(iris_dataset, hue='species')``
    * - `plt.savefig`
      - Save the current figure.
-     - `plt.savefig('/Users/farah/Desktop/pairplot.png')`
+     - ``plt.savefig('/Users/farah/Desktop/pairplot.png')``
    * - `plt.show`
      - Display a figure.
-     - `plt.show()`
+     - ``plt.show()``
    * - `plt.figure`
      - Create a new figure.
-     - `plt.figure(figsize=(10, 6))`
+     - ``plt.figure(figsize=(10, 6))``
    * - `sns.boxplot`
      - Draw a box plot to show distributions.
-     - `sns.boxplot(data=iris_dataset, orient="h", palette="Set2")`
+     - ``sns.boxplot(data=iris_dataset, orient="h", palette="Set2")``
    * - `sns.violinplot`
      - Draw a combination of boxplot and KDE.
-     - `sns.violinplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.violinplot(x="species", y="sepal_length", data=iris_dataset)``
    * - `sns.swarmplot`
      - Draw a categorical scatterplot with non-overlapping points.
-     - `sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)``
    * - `sns.jointplot`
      - Draw a plot of two variables with bivariate and univariate graphs.
-     - `sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")`
+     - ``sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")``
    * - `sns.pairplot`
      - Plot pairwise relationships using Kernel Density Estimation.
-     - `sns.pairplot(iris_dataset, kind="kde", hue="species")`
+     - ``sns.pairplot(iris_dataset, kind="kde", hue="species")``
    * - `sns.FacetGrid`
      - Multi-plot grid for plotting conditional relationships.
-     - `plot = sns.FacetGrid(iris_dataset, hue="species", height=5)`
+     - ``plot = sns.FacetGrid(iris_dataset, hue="species", height=5)``
    * - `sns.histplot`
      - Plot a histogram.
-     - `plot.map(sns.histplot, "sepal_length").add_legend()`
+     - ``plot.map(sns.histplot, "sepal_length").add_legend()``
    * - `sns.boxenplot`
      - Draw an enhanced box plot for larger datasets.
-     - `sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)``
    * - `sns.ecdfplot`
      - Plot an empirical cumulative distribution function.
-     - `sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")`
+     - ``sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")``
    * - `sns.kdeplot`
      - Plot a kernel density estimate.
-     - `sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)`
+     - ``sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)``
    * - `sns.rugplot`
      - Plot marginal distributions with ticks.
-     - `sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")`
+     - ``sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")``
    * - `pd.plotting.scatter_matrix`
      - Create a matrix of scatter plots.
-     - `pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')`
+     - ``pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')``
    * - `andrews_curves`
      - Plot Andrews curves for visualizing clusters.
-     - `andrews_curves(iris_dataset, "species")`
+     - ``andrews_curves(iris_dataset, "species")``
    * - `parallel_coordinates`
      - Plot parallel coordinates for multidimensional data.
-     - `parallel_coordinates(iris_dataset, "species")`
+     - ``parallel_coordinates(iris_dataset, "species")``
    * - `radviz`
      - Project multi-dimensional data into 2D.
-     - `radviz(iris_dataset, "species")`
+     - ``radviz(iris_dataset, "species")``
    * - `PCA`
      - Perform Principal Component Analysis.
-     - `pca = PCA(n_components=2)`
+     - ``pca = PCA(n_components=2)``
    * - `fit_transform`
      - Fit and transform data using PCA.
-     - `pca_components = pca.fit_transform(features_standardized)`
+     - ``pca_components = pca.fit_transform(features_standardized)``
    * - `pd.DataFrame`
      - Create a DataFrame.
-     - `pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])`
+     - ``pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])``
    * - `pd.concat`
      - Concatenate DataFrames.
-     - `pca_df = pd.concat([pca_df, iris_dataset[['species']]], axis=1)`
+     - ``pca_df = pd.concat([pca_df, iris_dataset[['species']]], axis=1)``
    * - `sns.scatterplot`
      - Draw a scatter plot.
-     - `sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)`
+     - ``sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)``
    * - `plt.title`
      - Set a title of the current axes.
-     - `plt.title('PCA Biplot of Iris Dataset')`
+     - ``plt.title('PCA Biplot of Iris Dataset')``
    * - Summary statistics
      - Generate descriptive statistics for a dataset.
-     - `summary_stats = iris_dataset.describe()`
+     - ``summary_stats = iris_dataset.describe()``
    * - Pairwise relationships
      - Visualize the pairwise relationships between features.
-     - `sns.pairplot(iris_dataset, hue='species')`
+     - ``sns.pairplot(iris_dataset, hue='species')``
    * - Pairplot
      - Plot pairwise relationships.
-     - `sns.pairplot(iris_dataset, hue='species')`
+     - ``sns.pairplot(iris_dataset, hue='species')``
    * - Box plot
      - Visual representation of the distribution of data.
-     - `sns.boxplot(data=iris_dataset, orient="h", palette="Set2")`
+     - ``sns.boxplot(data=iris_dataset, orient="h", palette="Set2")``
    * - Violin plot
      - Combination of box plot and KDE plot.
-     - `sns.violinplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.violinplot(x="species", y="sepal_length", data=iris_dataset)``
    * - Swarm plot
      - Scatter plot with non-overlapping points.
-     - `sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.swarmplot(x="species", y="sepal_length", data=iris_dataset)``
    * - Joint plot
      - Bivariate scatter plots and univariate histograms.
-     - `sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")`
+     - ``sns.jointplot(x="sepal_length", y="sepal_width", data=iris_dataset, hue="species")``
    * - Kernel Density Estimation (KDE)
      - Estimate the probability density function.
-     - `sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)`
+     - ``sns.kdeplot(data=iris_dataset, x="sepal_length", hue="species", fill=True)``
    * - FacetGrid
      - Multi-plot grid for conditional relationships.
-     - `plot = sns.FacetGrid(iris_dataset, hue="species", height=5)`
+     - ``plot = sns.FacetGrid(iris_dataset, hue="species", height=5)``
    * - Boxen plot
      - Enhanced box plot for large datasets.
-     - `sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)`
+     - ``sns.boxenplot(x="species", y="sepal_length", data=iris_dataset)``
    * - Empirical Cumulative Distribution Function (ECDF)
      - Plot the cumulative distribution of data.
-     - `sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")`
+     - ``sns.ecdfplot(data=iris_dataset, x="sepal_length", hue="species")``
    * - Rug plot
      - Show individual data points along with a density plot.
-     - `sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")`
+     - ``sns.rugplot(data=iris_dataset, x="sepal_length", hue="species")``
    * - Scatter plot matrix
      - Matrix of scatter plots for all feature pairs.
-     - `pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')`
+     - ``pd.plotting.scatter_matrix(iris_dataset, figsize=(12, 12), diagonal='kde')``
    * - Andrews curves
      - Visual representation of multivariate data.
-     - `andrews_curves(iris_dataset, "species")`
+     - ``andrews_curves(iris_dataset, "species")``
    * - Parallel coordinates
      - Visualize multi-dimensional data on parallel axes.
-     - `parallel_coordinates(iris_dataset, "species")`
+     - ``parallel_coordinates(iris_dataset, "species")``
    * - RadViz
      - Project multi-dimensional data into 2D.
-     - `radviz(iris_dataset, "species")`
+     - ``radviz(iris_dataset, "species")``
    * - Principal Component Analysis (PCA)
      - Reduce dimensionality of the data.
-     - `pca = PCA(n_components=2)`
+     - ``pca = PCA(n_components=2)``
    * - Standardization of features
      - Standardize features before applying PCA.
-     - `features_standardized = (features - features.mean()) / features.std()`
+     - ``features_standardized = (features - features.mean()) / features.std()``
    * - DataFrame creation
      - Create a DataFrame with PCA components.
-     - `pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])`
+     - ``pca_df = pd.DataFrame(data=pca_components, columns=['PC1', 'PC2'])``
    * - Data visualization
      - Plot PCA components.
-     - `sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)`
+     - ``sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)``
