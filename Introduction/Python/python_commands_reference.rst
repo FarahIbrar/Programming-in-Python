@@ -257,7 +257,7 @@ Python Commands Reference
      - Logical operator - and
      - ``if x and y >= z:``
    * - `type(int(input("Enter a value:")))`
-     - Reads input, converts to int, and checks type
+     - Reads input, converts to int, and checks its type
      - ``type(int(input("Enter a value: ")))``
    * - `try/except`
      - Exception handling
