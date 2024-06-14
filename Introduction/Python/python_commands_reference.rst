@@ -853,3 +853,75 @@ Python Commands Reference
    * - Data visualization
      - Plot PCA components.
      - ``sns.scatterplot(x='PC1', y='PC2', hue='species', data=pca_df)``
+   * - `dataset.var()`
+     - Calculates the variance of the dataset.
+     - ``variance = dataset.var()``
+   * - `dataset.std()`
+     - Computes the standard deviation of the dataset.
+     - ``std_deviation = dataset.std()``
+   * - `dataset.mode()`
+     - Finds the mode(s) of the dataset.
+     - ``modes = dataset.mode()``
+   * - `quantile()`
+     - Calculates quantiles of the dataset.
+     - ``q = dataset.quantile()``
+   * - `pd.cut`
+     - Bins the dataset into discrete intervals.
+     - ``bins = pd.cut(dataset)``
+   * - `numeric_only=True`
+     - Parameter to select numeric columns only.
+     - ``numeric_data = dataset.mean(numeric_only=True)``
+   * - `dataset.mean()`
+     - Computes the mean of the dataset.
+     - ``mean_value = dataset.mean()``
+   * - `apply(zscore)`
+     - Applies z-score normalization to the dataset.
+     - ``zscore_data = dataset.apply(zscore)``
+   * - `chi2`
+     - Chi-square statistic value.
+     - ``chi2_statistic = chi2``
+   * - `p`
+     - p-value from statistical tests.
+     - ``p_value = p``
+   * - `dof`
+     - Degrees of freedom for chi-square test.
+     - ``degrees_freedom = dof``
+   * - `expected`
+     - Expected frequencies for chi-square test.
+     - ``expected_freq = expected``
+   * - `ttest_ind`
+     - t-test statistic value.
+     - ``t_statistic = ttest_ind``
+   * - `p_val`
+     - p-value from t-test.
+     - ``p_value = p_val``
+   * - `t_stat`
+     - t-statistic value.
+     - ``t_statistic = t_stat``
+   * - `f_oneway`
+     - One-way ANOVA F-value.
+     - ``f_value = f_oneway``
+   * - `dataset.cov()`
+     - Computes covariance matrix of the dataset.
+     - ``covariance_matrix = dataset.cov()``
+   * - `pd.crosstab`
+     - Crosstabulation (frequency table).
+     - ``crosstab = pd.crosstab()``
+   * - `chi2_contingency`
+     - Chi-square test of independence.
+     - ``chi2_stat, p_val, dof, expected = chi2_contingency()``
+   * - `f_oneway`
+     - One-way ANOVA F-statistic.
+     - ``f_value, p_value = f_oneway()``
+   * - `dataset.kurtosis()`
+     - Computes the kurtosis of the dataset.
+     - ``kurtosis_value = dataset.kurtosis()``
+   * - `dataset['factor'].cov(dataset['other_factor'])`
+     - Computes covariance between two specific columns.
+     - ``covariance = dataset['factor'].cov(dataset['other_factor'])``
+   * - `autocorr()`
+     - Autocorrelation function.
+     - ``autocorr_values = autocorr()``
+   * - `np.log(dataset['feature'])`
+     - Computes natural logarithm of a feature.
+     - ``log_data = np.log(dataset['feature'])``
