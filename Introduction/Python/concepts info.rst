@@ -153,3 +153,91 @@ Concepts Information
      - Unsupervised learning method to group data points.
      - Discovering natural groupings in data.
      - Clusters of data points with similar characteristics.
+   * - Variance
+     - Measures the dispersion of the dataset.
+     - To understand how spread out the data points are in a dataset.
+     - Numeric value indicating the squared deviation from the mean.
+   * - Standard Deviation
+     - Measures the amount of variation or dispersion of a set of values.
+     - When you need to quantify the amount of variation or dispersion in a dataset.
+     - Numeric value representing the average distance of data points from the mean.
+   * - Numeric only
+     - Data consisting only of numeric values.
+     - When you need to operate on numerical data specifically.
+     - Subset of the original dataset containing only numeric columns.
+   * - Mode
+     - Identifies the most frequent value in a dataset.
+     - When you need to find the most common value or values in a dataset.
+     - Single or multiple values representing the most frequent items in the dataset.
+   * - Interquartile range (IQR)
+     - Measures the spread of the middle 50% of values.
+     - When you want to understand the spread of the central part of the data distribution.
+     - Range of values that represents the spread of the central 50% of the data.
+   * - Outliers
+     - Data points that are significantly different from the majority of the data.
+     - When you want to identify data points that may be erroneous or require special treatment.
+     - List of values that fall far from the central tendency of the dataset.
+   * - Coefficient of Variation
+     - Measures the relative variability.
+     - When comparing the variability of datasets with different means.
+     - Numeric value representing the relative variability normalized to the mean.
+   * - Z-Score Standardization
+     - Standardizes data by converting values to z-scores.
+     - When you want to compare data points that have different scales.
+     - Standardized values (z-scores) that represent the deviation from the mean in terms of standard deviations.
+   * - Bins
+     - Categorizes continuous data into intervals or groups.
+     - When you need to discretize continuous data.
+     - Interval labels representing the categorized data points.
+   * - Covariance matrix
+     - Shows how much two random variables vary together.
+     - When you need to analyze the relationship between multiple variables.
+     - Matrix where entries represent covariances between pairs of variables.
+   * - Normalization
+     - Scales features to a range of [0, 1].
+     - When you want to scale features to a uniform range.
+     - Values of the dataset scaled to the interval [0, 1].
+   * - Chi-square test
+     - Tests the independence between categorical variables.
+     - When you need to determine if two categorical variables are associated.
+     - Chi-square statistic and p-value indicating the strength of association between variables.
+   * - chi2_contingency
+     - Computes the chi-square statistic and p-value for a cross-tabulation.
+     - When you need to test the association between two categorical variables.
+     - Chi-square statistic, p-value, degrees of freedom, and expected frequencies.
+   * - T-Test
+     - Compares the means of two independent groups.
+     - When you need to determine if there is a significant difference between two groups.
+     - T-statistic, p-value, and degrees of freedom.
+   * - ttest_ind
+     - Computes the T-test for the means of two independent samples.
+     - When comparing two groups for significant differences.
+     - T-statistic and p-value.
+   * - ANOVA test
+     - Compares the means of multiple groups.
+     - When you need to determine if there are significant differences among multiple groups.
+     - F-statistic, p-value, and degrees of freedom.
+   * - f_oneway
+     - Computes the one-way ANOVA.
+     - When comparing means across multiple groups.
+     - F-value and p-value.
+   * - Kurtosis
+     - Measures the "tailedness" of the distribution.
+     - When you need to understand the shape of the distribution, particularly its tails.
+     - Numeric value indicating the kurtosis of the dataset.
+   * - Covariance
+     - Measures how much two variables change together.
+     - When you need to understand the directional relationship between two variables.
+     - Numeric value indicating the covariance between two variables.
+   * - Autocorrelation
+     - Measures the correlation of a variable with a lagged version of itself.
+     - When you need to understand if a variable is correlated with a previous value of itself.
+     - Numeric values representing the autocorrelation at different lag intervals.
+   * - Cross-tabulation
+     - Creates a contingency table summarizing the relationship between two categorical variables.
+     - When you need to understand the relationship between two categorical variables.
+     - Contingency table showing frequencies of different categories.
+   * - Log transformation
+     - Transforms data to reduce skewness.
+     - When you need to reduce the influence of extreme values and achieve a more normal-like distribution.
+     - Transformed values of the dataset, typically reducing skewness.
