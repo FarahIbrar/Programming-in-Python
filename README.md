@@ -10,6 +10,8 @@ This repository contains a comprehensive collection of Python programming concep
 
 ### Concepts and Techniques Covered
 
+All concepts and techniques covered can be found in the "Introduction, Python" folder, including details such as definition/descriptions, when to use each concept, typical output, definitions, and examples.
+
 1. **Python Basics**:
    - Variables, Data types (integers, floats, strings)
    - Input/Output (printing, `input()` function)
