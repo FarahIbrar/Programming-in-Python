@@ -538,16 +538,16 @@ Python Commands Reference
    * - `iris_dataset.isnull`
      - Detect missing values in the DataFrame.
      - ``missing_values = iris_dataset.isnull().sum()``
-   * - `iris_dataset.nunique`
+   * - `.nunique`
      - Count unique values in each column.
      - ``unique_counts = iris_dataset.nunique()``
-   * - `iris_dataset['species'].value_counts`
+   * - `dataset['species'].value_counts`
      - Return a Series containing counts of unique values.
      - ``species_distribution = iris_dataset['species'].value_counts()``
-   * - `iris_dataset.skew`
+   * - `dataset.skew`
      - Return the skewness of each numeric column.
      - ``skewness = iris_dataset.skew()``
-   * - `iris_dataset.kurt`
+   * - `dataset.kurt`
      - Return the kurtosis of each numeric column.
      - ``kurtosis = iris_dataset.kurt()``
    * - `shapiro`
