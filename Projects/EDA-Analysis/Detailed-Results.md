@@ -28,4 +28,6 @@
 - The distinct distributions of 'setosa' in both petal and sepal features highlight its uniqueness, while the overlap between 'versicolor' and 'virginica' suggests these species are more similar.
 - The ANOVA test confirms that all features are significantly different across species, validating their importance for differentiating between iris species.
 
-These insights provide a comprehensive understanding of the Iris dataset, showcasing the distinct characteristics of each species and the relationships between different features
+These insights provide a comprehensive understanding of the Iris dataset, showcasing the distinct characteristics of each species and the relationships between different features.
+
+### (Summarised version available in the main Project Report file)
