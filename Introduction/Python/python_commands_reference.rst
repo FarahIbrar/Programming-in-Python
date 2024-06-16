@@ -925,3 +925,105 @@ Python Commands Reference
    * - `np.log(dataset['feature'])`
      - Computes natural logarithm of a feature.
      - ``log_data = np.log(dataset['feature'])``
+   * - sklearn.model_selection.train_test_split
+     - Splits data arrays into random train and test subsets
+     - ::
+     
+         from sklearn.model_selection import train_test_split
+         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+   * - sklearn.model_selection.GridSearchCV
+     - Exhaustive search over specified parameter values for an estimator
+     - ::
+     
+         from sklearn.model_selection import GridSearchCV
+         parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]}
+         svc = SVC()
+         clf = GridSearchCV(svc, parameters)
+         clf.fit(X, y)
+   * - sklearn.preprocessing.StandardScaler
+     - Standardizes features by removing the mean and scaling to unit variance
+     - ::
+     
+         from sklearn.preprocessing import StandardScaler
+         scaler = StandardScaler()
+         X_scaled = scaler.fit_transform(X)
+   * - sklearn.linear_model.LogisticRegression
+     - Logistic Regression classifier
+     - ::
+     
+         from sklearn.linear_model import LogisticRegression
+         model = LogisticRegression()
+         model.fit(X_train, y_train)
+   * - sklearn.tree.DecisionTreeClassifier
+     - A decision tree classifier
+     - ::
+     
+         from sklearn.tree import DecisionTreeClassifier
+         model = DecisionTreeClassifier()
+         model.fit(X_train, y_train)
+   * - sklearn.ensemble.RandomForestClassifier
+     - A random forest classifier
+     - ::
+     
+         from sklearn.ensemble import RandomForestClassifier
+         model = RandomForestClassifier()
+         model.fit(X_train, y_train)
+   * - sklearn.metrics.accuracy_score
+     - Accuracy classification score
+     - ::
+     
+         from sklearn.metrics import accuracy_score
+         y_pred = model.predict(X_test)
+         accuracy = accuracy_score(y_test, y_pred)
+   * - sklearn.decomposition.PCA
+     - Principal Component Analysis
+     - ::
+     
+         from sklearn.decomposition import PCA
+         pca = PCA(n_components=2)
+         X_pca = pca.fit_transform(X)
+   * - sklearn.manifold.TSNE
+     - t-distributed Stochastic Neighbor Embedding
+     - ::
+     
+         from sklearn.manifold import TSNE
+         tsne = TSNE(n_components=2)
+         X_tsne = tsne.fit_transform(X)
+   * - pd.Categorical.from_codes
+     - Make a Categorical type from codes and categories arrays
+     - ::
+     
+         import pandas as pd
+         categories = ['cat', 'dog', 'fish']
+         codes = [0, 1, 2, 0, 2]
+         my_cats = pd.Categorical.from_codes(codes, categories)
+   * - scaler.fit_transform()
+     - Fits the model and transforms the data
+     - ::
+     
+         X_scaled = scaler.fit_transform(X)
+   * - model.fit()
+     - Fits the model to the data
+     - ::
+     
+         model.fit(X_train, y_train)
+   * - pca.transform()
+     - Transforms the data
+     - ::
+     
+         X_pca = pca.transform(X)
+   * - df.drop()
+     - Drops specified labels from rows or columns
+     - ::
+     
+         df = df.drop(columns=['Column_A', 'Column_B'])
+   * - df['column'].hist()
+     - Plot histograms of the input data
+     - ::
+     
+         df['column'].hist()
+   * - plt.suptitle()
+     - Add a centered title to the figure or set of subplots
+     - ::
+     
+         plt.suptitle('Main title')
