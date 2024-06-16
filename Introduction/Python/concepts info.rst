@@ -241,3 +241,55 @@ Concepts Information
      - Transforms data to reduce skewness.
      - When you need to reduce the influence of extreme values and achieve a more normal-like distribution.
      - Transformed values of the dataset, typically reducing skewness.
+   * - Hyperparameter Tuning
+     - Process of finding the optimal parameters (hyperparameters) for a machine learning model
+     - When you have a machine learning algorithm and need to improve its performance by tuning its hyperparameters
+     - Best hyperparameters that maximize the model's performance metrics like accuracy or F1-score
+   * - Model Evaluation and Selection
+     - Assessing the performance of machine learning models and choosing the best one for your problem
+     - After training multiple models, typically using cross-validation techniques to evaluate and compare their performance
+     - Metrics such as accuracy, precision, recall, F1-score, confusion matrix, ROC curve
+   * - Model Selection and Training
+     - The process of choosing a suitable machine learning algorithm and training it on the dataset
+     - At the beginning of a machine learning project when you have to select the most appropriate algorithm for your data
+     - Trained machine learning model ready to make predictions on new data
+   * - Feature Engineering
+     - Process of creating new input features from existing ones or transforming existing features to improve model performance
+     - Before training a machine learning model, to improve its predictive accuracy or to facilitate the learning process
+     - A dataset with new features that may better represent the underlying patterns in the data
+   * - ANOVA (f_oneway)
+     - Analysis of Variance test used to compare the means of two or more groups
+     - When comparing means of multiple groups to determine if there is a statistically significant difference between them
+     - F-statistic and p-value indicating the significance of the differences between group means
+   * - t-test (ttest_ind)
+     - Independent samples t-test used to determine if there is a significant difference between the means of two groups
+     - When comparing means of two groups to test whether they are significantly different from each other
+     - t-statistic and p-value indicating the significance of the difference between group means
+   * - Mann-Whitney U test (mannwhitneyu)
+     - Non-parametric test used to determine if there is a significant difference between two independent groups
+     - When the data does not meet the assumptions of parametric tests like the t-test
+     - U-statistic and p-value indicating the significance of the difference between group distributions
+   * - Kruskal-Wallis test (Kruskal)
+     - Non-parametric test used to determine if there are significant differences between three or more independent groups
+     - When comparing distributions of multiple groups to test whether they are significantly different from each other
+     - H-statistic and p-value indicating the significance of the differences between group distributions
+   * - Principal Component Analysis (PCA)
+     - Dimensionality reduction technique that transforms the dataset into a lower-dimensional space
+     - When dealing with high-dimensional data to reduce its dimensionality and visualize its structure
+     - Reduced dataset with principal components that explain the maximum variance in the data
+   * - t-distributed Stochastic Neighbor Embedding (TSNE)
+     - Non-linear dimensionality reduction technique that is well-suited for embedding high-dimensional data for visualization
+     - When visualizing high-dimensional data to understand the relationships between data points
+     - Reduced dataset in lower-dimensional space that preserves the local structure of the data
+   * - StandardScaler
+     - Method for standardizing features by removing the mean and scaling to unit variance
+     - Before training a machine learning model to ensure all features have the same scale and distribution
+     - Transformed dataset with scaled features
+   * - Accuracy Score
+     - Metric for evaluating classification models, calculated as the ratio of correctly predicted instances to the total instances
+     - After predicting outcomes with a classification model to evaluate its performance
+     - Single numeric value representing the model's accuracy on the test dataset
+   * - Silhouette Score
+     - Metric for evaluating the quality of clusters formed by a clustering algorithm
+     - After clustering data points to assess how well-separated the clusters are
+     - Single numeric value indicating the quality of the clustering (ranging from -1 to 1)
