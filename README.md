@@ -242,19 +242,19 @@ A lot of images are availabe in the images folder to refer back to the results a
 
 ## Machine Learning and Statistical Analysis Portfolio: Iris Dataset
 
-### Project 1: Species Classification Using Machine Learning
+#### Project 1: Species Classification Using Machine Learning
 Classifying Iris flower species with Logistic Regression, SVM, Decision Trees, and Random Forest; learned model evaluation and hyperparameter tuning.
 
-### Project 2: Exploratory Data Analysis (EDA) on the Iris Dataset
+#### Project 2: Exploratory Data Analysis (EDA) on the Iris Dataset
 Understanding Iris dataset through statistical analysis and visualizations; learned data exploration and hypothesis testing.
 
-### Project 3: Dimensionality Reduction Analysis
+#### Project 3: Dimensionality Reduction Analysis
 Reducing dimensionality of Iris dataset using PCA and t-SNE; learned feature scaling, dimensionality reduction, and data visualization.
 
-### Project 4: Comparative Analysis of Iris Species
+#### Project 4: Comparative Analysis of Iris Species
 Comparing Iris species using statistical tests and visualizations; learned statistical testing, effect size calculation, and data visualization.
 
-### Project 5: Cluster Analysis on the Iris Dataset
+#### Project 5: Cluster Analysis on the Iris Dataset
 Grouping Iris flowers into clusters using K-means clustering; learned clustering, feature preprocessing, and evaluation metrics.
 
 ### Skills Learned
@@ -265,7 +265,7 @@ Grouping Iris flowers into clusters using K-means clustering; learned clustering
 - Unsupervised learning techniques and cluster analysis using K-means.
 - Python programming skills with pandas, scikit-learn, and numpy.
 
-## Explore Each Project
+### Explore Each Project
 Navigate to each project folder for detailed code, results, and further documentation.
 
 ### Summary of What Did I Learn?
@@ -333,5 +333,5 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 
 ---
 
-### License
+## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code, provided that appropriate credit is given to the original author.
