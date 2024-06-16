@@ -1,7 +1,7 @@
-# Machine Learning Projects Portfolio
+# Machine Learning and Statistical Analysis Portfolio: Iris Dataset
 
 ## Overview
-This repository contains a series of projects focused on the application of machine learning techniques to the Iris dataset. Each project demonstrates a different aspect of machine learning, ranging from species classification, exploratory data analysis, dimensionality reduction, comparative analysis, and clustering. The Iris dataset, a classic dataset in machine learning and statistics, is used throughout these projects to illustrate various concepts and methods.
+This repository contains a series of projects focused on the application of machine learning and statistical techniques to the Iris dataset. Each project demonstrates a different aspect of machine learning and different types of statistical analysis, ranging from species classification, exploratory data analysis, dimensionality reduction, comparative analysis, and clustering. The Iris dataset is used throughout these projects to illustrate various concepts and methods.
 
 ## Projects
 
