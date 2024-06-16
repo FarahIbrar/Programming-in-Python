@@ -122,7 +122,7 @@ K-means clustering revealed distinct clusters, with good quality indicated by th
 ---
 
 ## Conclusion
-These projects collectively demonstrate various machine learning techniques applied to the Iris dataset. From classification and EDA to dimensionality reduction, comparative analysis, and clustering, each project provides valuable insights and practical skills in handling and analyzing data.
+These projects collectively demonstrate various machine learning and statistical data analysis techniques applied to the Iris dataset. From classification and EDA to dimensionality reduction, comparative analysis, and clustering, each project provides valuable insights and practical skills in handling and analyzing data.
 
 ## What I Learned
 - Comprehensive understanding of machine learning concepts.
