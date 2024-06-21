@@ -14,6 +14,9 @@ The aim of this project is to develop machine learning models that can accuratel
 ## Need for the Project
 Breast cancer is a significant health concern globally, and early detection plays a crucial role in improving patient outcomes. Machine learning models can assist in automating and improving the accuracy of diagnosis based on medical data. This project serves to demonstrate the application of classification algorithms in medical diagnostics and to provide insights into model selection for similar tasks.
 
+## Source of the Data
+The Breast Cancer Wisconsin Classification dataset was sourced from the UCI Machine Learning Repository.
+
 ## Steps Involved and Why They Were Needed
 1. **Importing the Dataset:**
    - **Purpose:** Obtain the dataset containing various features related to breast tumor characteristics.
