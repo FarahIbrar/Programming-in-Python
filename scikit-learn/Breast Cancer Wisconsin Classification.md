@@ -3,6 +3,11 @@
 ## Description
 This project involves building and comparing classification models using two different algorithms: Decision Tree and Logistic Regression. The dataset used is the "Breast Cancer Wisconsin" dataset, obtained from the UCI Machine Learning Repository. The goal is to predict whether a breast tumor is malignant or benign based on various features.
 
+## What is Wisconsin Classification?
+- Wisconsin Classification refers to a method or system of categorizing or classifying data, typically used in the context of machine learning and statistical analysis. It involves grouping data points into distinct classes or categories based on their attributes or characteristics.
+- The term "Wisconsin Classification" specifically originates from the dataset known as the "Breast Cancer Wisconsin (Diagnostic) Dataset," where machine learning algorithms are applied to classify breast cancer tumors as either malignant or benign based on various features extracted from cell images (exactly the same dataset found in this respository for scikit-learn).
+- The classification process aims to assist in medical diagnostics by predicting the nature of tumors, thereby aiding in treatment decisions and patient care strategies.
+
 ## Aim
 The aim of this project is to develop machine learning models that can accurately classify breast tumors as either malignant or benign using the provided dataset. By comparing the performance of Decision Tree and Logistic Regression algorithms, we aim to determine which model is more suitable for this classification task.
 
