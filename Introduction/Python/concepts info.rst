@@ -293,3 +293,167 @@ Concepts Information
      - Metric for evaluating the quality of clusters formed by a clustering algorithm
      - After clustering data points to assess how well-separated the clusters are
      - Single numeric value indicating the quality of the clustering (ranging from -1 to 1)
+   * - Machine Learning
+     - A field of study that gives computers the ability to learn from data without being explicitly programmed.
+     - When automating tasks that require pattern recognition.
+     - Trained models, predictions, accuracy metrics.
+   * - Classification
+     - A supervised learning task where the goal is to predict the categorical class labels of new instances, based on past observations.
+     - When the output variable is a category.
+     - Class labels, confusion matrix, classification report.
+   * - Decision Tree Classifier
+     - A decision support tool that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility.
+     - When you need an interpretable model that handles non-linear relationships well.
+     - Decision tree structure, feature importances, classification metrics.
+   * - Model Training
+     - The process of feeding a machine learning algorithm with data to learn from, in order to make predictions.
+     - When you have prepared data and are ready to create a predictive model.
+     - Trained model, learned parameters.
+   * - Model Evaluation
+     - The process of assessing the performance of a trained model on new, unseen data.
+     - After training a model to understand its performance.
+     - Accuracy, precision, recall, F1-score, confusion matrix.
+   * - Confusion Matrix
+     - A table used to describe the performance of a classification model on a set of test data for which the true values are known.
+     - To evaluate the performance of a classification model.
+     - True positives, true negatives, false positives, false negatives.
+   * - Classification Report
+     - A report that includes the precision, recall, F1-score, and support for each class.
+     - To get a detailed performance analysis of a classification model.
+     - Precision, recall, F1-score, support for each class.
+   * - K-Fold Cross-Validation
+     - A resampling procedure used to evaluate machine learning models on a limited data sample.
+     - When you want to validate the stability of your model.
+     - Average performance metrics across folds.
+   * - Hyperparameter Tuning
+     - The process of optimizing the hyperparameters of a machine learning model to improve its performance.
+     - When you need to improve model performance.
+     - Best hyperparameters, improved performance metrics.
+   * - Model Visualization
+     - The process of graphically representing the structure and predictions of a model.
+     - To understand or communicate the model's decisions.
+     - Decision tree plots, feature importance plots.
+   * - Data Exploration and Preprocessing
+     - The initial steps of data analysis that involve summarizing and visualizing the main characteristics of a dataset, and preparing it for modeling.
+     - Before model training to understand and clean data.
+     - Summary statistics, visualizations, cleaned dataset.
+   * - Handling Missing Values
+     - Techniques used to handle missing data in a dataset, which can include deletion, imputation, or using algorithms that support missing values.
+     - When your dataset contains missing values.
+     - Imputed dataset, dataset with missing values handled.
+   * - Data Cleaning
+     - The process of detecting and correcting (or removing) corrupt or inaccurate records from a dataset.
+     - Before model training to ensure data quality.
+     - Cleaned dataset.
+   * - Feature Engineering
+     - The process of using domain knowledge to create features that make machine learning algorithms work better.
+     - To improve model performance with better features.
+     - New or transformed features.
+   * - Exploratory Data Analysis (EDA)
+     - An approach to analyzing datasets to summarize their main characteristics, often with visual methods.
+     - To understand the dataset and uncover patterns.
+     - Visualizations, summary statistics.
+   * - Feature Scaling
+     - The process of normalizing the range of independent variables or features of data.
+     - When features have different scales and ranges.
+     - Scaled feature values.
+   * - K-means Clustering Algorithm
+     - A method of vector quantization that partitions n observations into k clusters in which each observation belongs to the cluster with the nearest mean.
+     - For clustering similar data points together.
+     - Cluster labels for each data point.
+   * - Elbow Method for Determining Optimal Clusters
+     - A method to find the appropriate number of clusters in a dataset by fitting the model with a range of values for k and plotting the cost function.
+     - To determine the optimal number of clusters in clustering.
+     - Plot of cost function vs. number of clusters.
+   * - Customer Profiling
+     - The practice of categorizing customers based on common characteristics to better understand their needs and preferences.
+     - For market segmentation and personalized marketing.
+     - Customer segments, profiles.
+   * - Visualization
+     - The graphical representation of data to help understand and communicate insights.
+     - To explore data or present findings.
+     - Plots, charts, graphs.
+   * - Saving Plots as PNG Files
+     - The process of saving generated plots to a file in PNG format.
+     - When you need to save visualizations for reports or presentations.
+     - PNG image files.
+   * - Scikit-learn
+     - A free software machine learning library for the Python programming language.
+     - For implementing machine learning algorithms.
+     - Machine learning models, performance metrics.
+   * - Breast Cancer Wisconsin Dataset
+     - A popular dataset used for machine learning research and education, available from the UCI Machine Learning Repository.
+     - For binary classification tasks.
+     - Feature matrix, target vector.
+   * - UCI Machine Learning Repository
+     - A collection of databases, domain theories, and datasets used for empirical research in machine learning.
+     - To find benchmark datasets for machine learning tasks.
+     - Various datasets for different tasks.
+   * - Classification Models
+     - Algorithms used to predict the categorical class labels of new instances.
+     - When the target variable is categorical.
+     - Predicted class labels, performance metrics.
+   * - Decision Tree 
+     - A type of model used for classification and regression tasks that predicts the value of a target variable by learning simple decision rules from data features.
+     - When an interpretable model is required.
+     - Decision tree structure, predicted values.
+   * - Classifier
+     - An algorithm that maps input data to a specific category.
+     - For tasks involving categorical outcomes.
+     - Predicted class labels.
+   * - Performance Metrics
+     - Quantitative measures used to evaluate the performance of a model.
+     - To assess model effectiveness.
+     - Accuracy, precision, recall, F1-score.
+   * - Precision
+     - The ratio of true positive predictions to the total number of positive predictions made.
+     - When the cost of false positives is high.
+     - Precision score.
+   * - Recall
+     - The ratio of true positive predictions to the total number of actual positive instances.
+     - When the cost of false negatives is high.
+     - Recall score.
+   * - F1-score
+     - The harmonic mean of precision and recall.
+     - When you need a balance between precision and recall.
+     - F1-score.
+   * - Loading Dataset
+     - The process of importing a dataset into a Python environment for analysis.
+     - As the first step in data analysis or modeling.
+     - Dataframe or array containing the dataset.
+   * - Converting to DataFrame
+     - Transforming data into a pandas DataFrame, a 2-dimensional labeled data structure.
+     - When working with data in pandas.
+     - Pandas DataFrame.
+   * - Checking Distribution of Target Labels
+     - Analyzing the frequency of each class label in the target variable.
+     - To understand class balance in classification tasks.
+     - Frequency counts of target labels.
+   * - Checking for Missing Values
+     - Identifying any missing data in the dataset.
+     - Before data preprocessing and cleaning.
+     - Count of missing values per feature.
+   * - Feature Scaling
+     - The process of normalizing the range of independent variables or features of data.
+     - When features have different scales and ranges.
+     - Scaled feature values.
+   * - Train-Test Split
+     - The process of splitting a dataset into two parts: one for training the model and one for testing its performance.
+     - To evaluate model performance on unseen data.
+     - Training and testing datasets.
+   * - Model Training
+     - The process of feeding a machine learning algorithm with data to learn from, in order to make predictions.
+     - When you have prepared data and are ready to create a predictive model.
+     - Trained model, learned parameters.
+   * - Model Evaluation
+     - The process of assessing the performance of a trained model on new, unseen data.
+     - After training a model to understand its performance.
+     - Accuracy, precision, recall, F1-score, confusion matrix.
+   * - Model Comparison
+     - The process of comparing the performance of different machine learning models to choose the best one.
+     - When selecting the best model for deployment.
+     - Comparison metrics, model performance rankings.
+   * - Model Recommendation
+     - Providing suggestions on which model to use based on performance metrics and specific use-case requirements.
+     - To select the most suitable model for a task.
+     - Recommended model, rationale for selection.
