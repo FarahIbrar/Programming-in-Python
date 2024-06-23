@@ -3,6 +3,8 @@
 ## Description
 This project focuses on performing customer segmentation for an e-commerce dataset using machine learning techniques. By clustering customers based on their purchasing behavior, the aim is to identify distinct customer segments that can be targeted with personalized marketing strategies, ultimately improving customer engagement and sales.
 
+The data for this project is available here: [Customer Segmentation Data Source](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
+
 ## Aim
 The aim of this project is to segment customers into meaningful groups based on their purchasing behavior using clustering algorithms. This segmentation will enable personalized marketing strategies and enhance business decision-making.
 
