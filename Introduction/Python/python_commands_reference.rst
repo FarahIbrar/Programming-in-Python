@@ -1027,3 +1027,132 @@ Python Commands Reference
      - ::
      
          plt.suptitle('Main title')
+   * - import pandas as pd
+     - Importing the pandas library under the alias 'pd' for data manipulation and analysis.
+     - ``import pandas as pd``
+   * - import sklearn as s
+     - Importing the scikit-learn library under the alias 's' for machine learning tasks.
+     - ``import sklearn as s``
+   * - from sklearn import tree as t
+     - Importing the decision tree module from scikit-learn under the alias 't'.
+     - ``from sklearn import tree as t``
+   * - from sklearn.model_selection import train_test_split as tts
+     - Importing the train_test_split function from scikit-learn for splitting data into training and test sets.
+     - ``from sklearn.model_selection import train_test_split as tts``
+   * - tts(dataset)
+     - Splitting the dataset into training and test sets using the train_test_split function.
+     - ``X_train, X_test, y_train, y_test = tts(X, y, test_size=0.3, random_state=42)``
+   * - model1 = s.tree.DecisionTreeClassifier()
+     - Creating a decision tree classifier model using scikit-learn.
+     - ``model1 = s.tree.DecisionTreeClassifier()``
+   * - model1.fit(training_features, training_response)
+     - Training the decision tree classifier model on the training data.
+     - ``model1.fit(training_features, training_response)``
+   * - s.tree.plot_tree(model1)
+     - Visualizing the decision tree model.
+     - ``s.tree.plot_tree(model1)``
+   * - model1.predict(test_features)
+     - Making predictions using the trained decision tree model.
+     - ``model1.predict(test_features)``
+   * - s.metrics.confusion_matrix()
+     - Computing the confusion matrix to evaluate classification accuracy.
+     - ``s.metrics.confusion_matrix(y_true, y_pred)``
+   * - s.metrics.classification_report()
+     - Generating a classification report with precision, recall, F1-score, and support.
+     - ``s.metrics.classification_report(y_true, y_pred)``
+   * - df['new_column'] = df['existing_column'] * df['other_column']
+     - Creating a new column in a pandas DataFrame by performing element-wise multiplication.
+     - ``df['new_column'] = df['existing_column'] * df['other_column']``
+   * - df.groupby().agg()
+     - Aggregating data in a pandas DataFrame after grouping by specified columns.
+     - ``df.groupby('column').agg({'column2': 'mean'})``
+   * - df.reset_index()
+     - Resetting the index of a pandas DataFrame.
+     - ``df.reset_index()``
+   * - plt.xlabel()
+     - Setting the x-axis label for a matplotlib plot.
+     - ``plt.xlabel('xlabel')``
+   * - plt.ylabel()
+     - Setting the y-axis label for a matplotlib plot.
+     - ``plt.ylabel('ylabel')``
+   * - plt.grid()
+     - Displaying gridlines on a matplotlib plot.
+     - ``plt.grid(True)``
+   * - plt.show()
+     - Displaying the matplotlib plot.
+     - ``plt.show()``
+   * - KMeans()
+     - Creating a K-means clustering model object.
+     - ``kmeans = KMeans(n_clusters=3)``
+   * - kmeans.fit()
+     - Fitting the K-means clustering model to the data.
+     - ``kmeans.fit(X)``
+   * - kmeans.fit_predict()
+     - Computing cluster centers and predicting cluster index for each sample.
+     - ``kmeans.fit_predict(X)``
+   * - range()
+     - Generating a sequence of numbers.
+     - ``range(10)``
+   * - plt.plot()
+     - Plotting data on a matplotlib plot.
+     - ``plt.plot(x, y)``
+   * - sns.barplot()
+     - Creating a bar plot using seaborn.
+     - ``sns.barplot(x='x', y='y', data=df)``
+   * - pd.to_datetime()
+     - Converting a pandas object to a datetime object.
+     - ``pd.to_datetime(df['date_column'])``
+   * - df['new_column'] = (df['date_column'].max() - df['date_column']).dt.days
+     - Calculating the difference in days between each date in a pandas DataFrame and the maximum date.
+     - ``df['new_column'] = (df['date_column'].max() - df['date_column']).dt.days``
+   * - plt.savefig()
+     - Saving a matplotlib plot as a PNG file.
+     - ``plt.savefig('plot.png')``
+   * - !pip install scikit-learn
+     - Installing the scikit-learn library using pip from within a Jupyter Notebook or similar environment.
+     - ``!pip install scikit-learn``
+   * - from sklearn.preprocessing import StandardScaler
+     - Importing the StandardScaler class from scikit-learn for feature scaling.
+     - ``from sklearn.preprocessing import StandardScaler``
+   * - from sklearn.model_selection import train_test_split
+     - Importing the train_test_split function from scikit-learn for splitting data into training and test sets.
+     - ``from sklearn.model_selection import train_test_split``
+   * - from sklearn.tree import DecisionTreeClassifier
+     - Importing the DecisionTreeClassifier class from scikit-learn for decision tree-based classification.
+     - ``from sklearn.tree import DecisionTreeClassifier``
+   * - from sklearn.linear_model import LogisticRegression
+     - Importing the LogisticRegression class from scikit-learn for logistic regression-based classification.
+     - ``from sklearn.linear_model import LogisticRegression``
+   * - from sklearn.metrics import classification_report
+     - Importing the classification_report function from scikit-learn for generating a classification report.
+     - ``from sklearn.metrics import classification_report``
+   * - load_breast_cancer()
+     - Loading the breast cancer Wisconsin dataset from scikit-learn.
+     - ``from sklearn.datasets import load_breast_cancer``
+   * - pd.DataFrame()
+     - Creating an empty pandas DataFrame.
+     - ``pd.DataFrame()``
+   * - data['target'].value_counts()
+     - Counting the occurrences of each unique value in a pandas Series.
+     - ``data['target'].value_counts()``
+   * - scaler.fit_transform()
+     - Fitting the scaler to the data and transforming it.
+     - ``scaler.fit_transform(X)``
+   * - train_test_split()
+     - Splitting arrays or matrices into random train and test subsets.
+     - ``X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)``
+   * - DecisionTreeClassifier()
+     - Creating a DecisionTreeClassifier object from scikit-learn.
+     - ``clf = DecisionTreeClassifier()``
+   * - LogisticRegression()
+     - Creating a LogisticRegression object from scikit-learn.
+     - ``clf = LogisticRegression()``
+   * - fit()
+     - Fitting a machine learning model to the training data.
+     - ``clf.fit(X_train, y_train)``
+   * - predict()
+     - Making predictions on new data using a trained model.
+     - ``clf.predict(X_test)``
+   * - classification_report()
+     - Generating a classification report to evaluate model performance.
+     - ``print(classification_report(y_test, y_pred))``
