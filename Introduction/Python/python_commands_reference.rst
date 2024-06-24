@@ -1156,3 +1156,29 @@ Python Commands Reference
    * - classification_report()
      - Generating a classification report to evaluate model performance.
      - ``print(classification_report(y_test, y_pred))``
+   * - !pip install yfinance
+     - Installing the yfinance library using pip for fetching stock market data.
+     - ``!pip install yfinance``
+   * - warnings.filterwarnings("ignore")
+     - Suppressing all warnings in the code execution.
+     - `import warnings`
+     - ``warnings.filterwarnings("ignore")``
+   * - result.plot()
+     - Plotting data stored in the variable 'result'.
+     - ``result.plot()``
+   * - joblib.dump()
+     - Saving a Python object to a file using joblib.
+     - `import joblib`
+     - ``joblib.dump(model, 'model.pkl')``
+   * - sns.heatmap()
+     - Plotting a heatmap using seaborn.
+     - `import seaborn as sns`
+     - ``sns.heatmap(data)``
+   * - plt.figure(figsize=())
+     - Creating a figure with a specific size using matplotlib.
+     - `import matplotlib.pyplot as plt`
+     - ``plt.figure(figsize=(10, 6))``
+   * - seasonal_decompose()
+     - Decomposing a time series into trend, seasonal, and residual components using statsmodels.
+     - `from statsmodels.tsa.seasonal import seasonal_decompose`
+     - ``result = seasonal_decompose(data)``
