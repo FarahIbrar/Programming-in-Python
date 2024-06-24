@@ -457,3 +457,23 @@ Concepts Information
      - Providing suggestions on which model to use based on performance metrics and specific use-case requirements.
      - To select the most suitable model for a task.
      - Recommended model, rationale for selection.
+   * - Stock price prediction
+     - The task of forecasting future stock prices based on historical data and other relevant factors.
+     - When making investment decisions or financial planning.
+     - Predicted future stock prices, confidence intervals.
+   * - Time series analysis
+     - The process of analyzing and extracting meaningful statistics and characteristics from time series data.
+     - When dealing with data points collected over time.
+     - Trend analysis, seasonality detection, forecasting.
+   * - Model selection and evaluation
+     - The process of comparing and choosing the best machine learning model for a specific task, and assessing its performance.
+     - When developing predictive models to ensure optimal performance.
+     - Best model selection, performance metrics (accuracy, RMSE, etc.).
+   * - Data preprocessing
+     - The initial step in data analysis that involves cleaning, transforming, and preparing raw data for modeling.
+     - Before training machine learning models to ensure data quality and compatibility.
+     - Cleaned and transformed dataset ready for modeling.
+   * - Machine learning evaluation metrics
+     - Quantitative measures used to assess the performance of machine learning models.
+     - After training models to understand their effectiveness and reliability.
+     - Accuracy, precision, recall, F1-score, RMSE, MAE, etc.
