@@ -140,6 +140,7 @@ All concepts and techniques covered can be found in the "Introduction, Python" f
   - Pandas (`import pandas as pd`).
   - NumPy (`import numpy as np`).
   - Scipy (`import scipy.stats as stats`).
+  - yfinance (for collecting historical stock data).
 
 - **Data Visualization**:
   - Matplotlib (`import matplotlib.pyplot as plt`).
@@ -149,6 +150,7 @@ All concepts and techniques covered can be found in the "Introduction, Python" f
   - Scikit-learn (`from sklearn.model_selection import train_test_split, cross_val_score; from sklearn.metrics import ...`).
   - Statsmodels (`import statsmodels.api as sm`).
   - TensorFlow (`import tensorflow as tf`), PyTorch (`import torch`).
+  - sklearn (for machine learning models and tools, including preprocessing, model selection, and evaluation).
 
 - **Natural Language Processing (NLP)**:
   - NLTK (`import nltk`).
@@ -178,6 +180,7 @@ All concepts and techniques covered can be found in the "Introduction, Python" f
   - `re` for regular expressions.
   - `itertools` for combinatorial iterators.
   - `pickle` for object serialization.
+  - statsmodels (for exploring data, estimating statistical models, and performing statistical tests).
 
 ---
 
@@ -193,6 +196,8 @@ All concepts and techniques covered can be found in the "Introduction, Python" f
 - Implementing feature engineering techniques such as feature scaling, selection, and transformation.
 - Applying time series analysis techniques such as decomposition and forecasting.
 - Conducting web scraping using Python libraries.
+- Stock Market Analysis
+- Customer segmentation for E-commerce
 - Performing geospatial analysis and visualization.
 - Handling natural language processing tasks like text preprocessing, vectorization, sentiment analysis, and topic modeling.
 - Data preprocessing tasks like outlier handling, imputation, and normalization.
