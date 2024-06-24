@@ -262,24 +262,70 @@ Comparing Iris species using statistical tests and visualizations; learned stati
 #### Project 5: Cluster Analysis on the Iris Dataset
 Grouping Iris flowers into clusters using K-means clustering; learned clustering, feature preprocessing, and evaluation metrics.
 
-### Skills Learned
+---
+
+## Scikit-learn Projects
+
+#### Project 1: Customer Segmentation for E-commerce
+
+**Description:** Conducted customer segmentation using K-means clustering based on purchasing behavior in an e-commerce dataset.
+
+**Key Objectives:** Identified distinct customer segments to tailor marketing strategies and improve business decision-making.
+
+**Key Steps:**
+- **Data Exploration and Preprocessing:** Ensured data quality by handling missing values, duplicates, and formatting dates. Engineered features like TotalAmount for customer spending quantification.
+- **Customer Segmentation using Clustering:** Implemented K-means clustering to group customers with similar purchasing patterns. Determined optimal clusters using the elbow method and visualized segment distributions.
+- **Customer Profiling and Insights:** Analyzed segment characteristics, behavior patterns, and visualized metrics to derive actionable marketing insights.
+
+**Overall Result:**
+- Successfully segmented customers into meaningful groups based on their purchasing behavior, enabling personalized marketing strategies and business optimizations.
+- Demonstrated proficiency in data preprocessing, clustering techniques, and deriving actionable insights from customer data in an e-commerce context.
+
+---
+
+#### Project 2: AAPL Stock Price Prediction with Machine Learning
+
+**Description:** Built a machine learning model to forecast Apple Inc. (AAPL) stock prices for the next 30 days using historical data.
+
+**Key Objectives:** Predicted future stock prices to provide insights for investment decisions and understand potential price trends.
+
+**Key Steps:**
+- **Data Collection and Preprocessing:** Gathered historical stock data using yfinance, cleaned, and engineered features like moving averages and Relative Strength Index (RSI).
+- **Model Selection and Training:** Trained models including Linear Regression, RandomForestRegressor, and SVR. Evaluated model performance based on metrics like RMSE and R-squared.
+- **Prediction and Evaluation:** Forecasted AAPL stock prices for January 2023 and visualized actual vs. predicted results to assess model accuracy.
+
+**Overall Result:**
+- Successfully developed a predictive model that effectively forecasted AAPL stock prices, demonstrating the application of machine learning in financial forecasting.
+- Gained practical experience in data preprocessing, feature engineering, model selection, and evaluation for stock price prediction.
+
+--- 
+
+## Skills Learned
 - Machine learning model selection, evaluation, and hyperparameter tuning.
 - Data exploration, visualization techniques, and hypothesis testing.
 - Dimensionality reduction using PCA and t-SNE.
 - Statistical analysis including ANOVA, t-tests, and effect size calculations.
 - Unsupervised learning techniques and cluster analysis using K-means.
 - Python programming skills with pandas, scikit-learn, and numpy.
+- Time Series Analysis: Ability to analyze and model temporal data, including trend analysis, seasonality decomposition, and forecasting techniques such as ARIMA and Prophet.
+- Feature Engineering: Proficiency in creating new features from existing data to enhance predictive model performance, including domain-specific feature selection and transformation techniques.
+- Deployment and Productionization: Understanding of deploying machine learning models into production environments, including containerization, API development (e.g., Flask or FastAPI), and model monitoring for performance and drift detection.
 
-### Explore Each Project
+--- 
+
+## Explore Each Project
 Navigate to each project folder for detailed code, results, and further documentation.
 
-### Summary of What Did I Learn?
+--- 
+
+## Summary of What Did I Learn?
 
 - Throughout this project, I expanded my knowledge across various domains of Python programming and data science. 
 - I gained proficiency in data handling, exploratory data analysis, machine learning, natural language processing, deep learning, and reinforcement learning. 
-- I learned to effectively use libraries such as pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and PyTorch. 
+- I learned to effectively use libraries such as pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and PyTorch and many other libraries.
+- Acquired skills in cross-validation techniques to assess model generalization and performance metrics selection to measure model efficacy.
 - Additionally, I gained experience in web scraping, geospatial analysis, and model deployment using Flask and Docker. 
-- This project helped me strengthen my skills in Python programming, data analysis, and machine learning model development.
+- This respository helped me strengthen my skills in Python programming, data analysis, machine learning model development and much more.
 
 ---
 
@@ -288,13 +334,14 @@ Navigate to each project folder for detailed code, results, and further document
 - The most enjoyable aspect of this project was the application of machine learning algorithms and deep learning models.
 - I particularly liked experimenting with different classification and clustering techniques to solve real-world problems.
 - Building and optimizing neural networks using TensorFlow and PyTorch was both challenging and rewarding.
+- Working on predictive models to forecast trends and make informed decisions based on data insights was highly satisfying.
 - Moreover, the process of deploying models using Flask and Docker, and integrating them with cloud platforms, was another aspect that I found fascinating.
   
 ---
 
 ## Conclusion
 
-In conclusion, this project provided me with a comprehensive hands-on experience in Python programming and data science. I gained valuable insights into various machine learning, statistical analysis and deep learning techniques, as well as practical skills in data visualization, natural language processing, and geospatial analysis. This project not only reinforced my understanding of core concepts but also equipped me with the skills necessary to tackle complex data-driven challenges. Moving forward, I plan to further enhance this project by integrating advanced techniques and exploring new areas of interest in data science.
+In conclusion, this respository provided me with a comprehensive hands-on experience in Python programming and data science. I gained valuable insights into various machine learning, statistical analysis and deep learning techniques, as well as practical skills in data visualization, natural language processing, and geospatial analysis. This project not only reinforced my understanding of core concepts but also equipped me with the skills necessary to tackle complex data-driven challenges. Moving forward, I plan to further enhance this project by integrating advanced techniques and exploring new areas of interest in data science.
 
 ---
 
