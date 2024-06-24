@@ -1156,3 +1156,63 @@ Python Commands Reference
    * - classification_report()
      - Generating a classification report to evaluate model performance.
      - ``print(classification_report(y_test, y_pred))``
+   * - !pip install yfinance
+     - Installing the yfinance library using pip for fetching stock market data.
+     - ``!pip install yfinance``
+   * - warnings.filterwarnings("ignore")
+     - Suppressing all warnings in the code execution.
+     - ``import warnings`` 
+
+       ``warnings.filterwarnings("ignore")``
+   * - result.plot()
+     - Plotting data stored in the variable 'result'.
+     - ``result.plot()``
+   * - joblib.dump()
+     - Saving a Python object to a file using joblib.
+     - ``import joblib``
+     
+       ``joblib.dump(model, 'model.pkl')``
+   * - sns.heatmap()
+     - Plotting a heatmap using seaborn.
+     - ``import seaborn as sns``
+     
+       ``sns.heatmap(data)``
+   * - plt.figure(figsize=())
+     - Creating a figure with a specific size using matplotlib.
+     - ``import matplotlib.pyplot as plt``
+     
+       ``plt.figure(figsize=(10, 6))``
+   * - seasonal_decompose()
+     - Decomposing a time series into trend, seasonal, and residual components using statsmodels.
+     - ``from statsmodels.tsa.seasonal import seasonal_decompose``
+   
+       ``result = seasonal_decompose(data)``
+   * - scaler.fit_transform()
+     - Fitting the scaler to the data and transforming it.
+     - ``scaler.fit_transform(X)``
+   * - train_test_split()
+     - Splitting arrays or matrices into random train and test subsets.
+     - ``from sklearn.model_selection import train_test_split``
+     
+       ``X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)``
+   * - DecisionTreeClassifier()
+     - Creating a DecisionTreeClassifier object from scikit-learn.
+     - ``from sklearn.tree import DecisionTreeClassifier``
+     
+       ``clf = DecisionTreeClassifier()``
+   * - LogisticRegression()
+     - Creating a LogisticRegression object from scikit-learn.
+     - ``from sklearn.linear_model import LogisticRegression``
+       
+       ``clf = LogisticRegression()``
+   * - fit()
+     - Fitting a machine learning model to the training data.
+     - ``clf.fit(X_train, y_train)``
+   * - predict()
+     - Making predictions on new data using a trained model.
+     - ``clf.predict(X_test)``
+   * - classification_report()
+     - Generating a classification report to evaluate model performance.
+     - ``from sklearn.metrics import classification_report``
+     
+       ``print(classification_report(y_test, y_pred))``
