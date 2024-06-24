@@ -1,4 +1,4 @@
-# Stock Price Prediction with Machine Learning
+# AAPL Stock Price Prediction with Machine Learning
 
 ## Description
 This project focuses on building a predictive model to forecast the closing prices of Apple Inc. (AAPL) stock for the next 30 days using historical data. The model aims to provide insights into potential future price trends based on past performance.
