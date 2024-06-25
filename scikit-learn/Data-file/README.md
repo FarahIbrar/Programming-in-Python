@@ -1,6 +1,6 @@
 # Breast Cancer Wisconsin Classification Dataset
 
-This dataset contains information about various features computed from digitized images of breast cancer cells. Each row represents a sample, and each column represents a specific feature measured from that sample.
+This dataset contains detailed information about various features computed from digitized images of breast cancer cells. Each row represents a sample, and each column represents a specific feature measured from that sample.
 
 ## Elements in the Dataset
 
