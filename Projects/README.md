@@ -8,7 +8,7 @@ This repository contains a series of projects focused on the application of mach
 ### Project 1: Species Classification Using Machine Learning
 
 #### Description
-This project focuses on classifying Iris flower species using various machine learning algorithms. The aim is to build and compare models to predict the species based on sepal and petal measurements.
+This project focuses on classifying Iris flower species dataset using various machine learning algorithms. The aim is to build and compare models to predict the species based on sepal and petal measurements.
 
 #### Aim
 To compare different machine learning algorithms and select the best-performing model for classifying Iris flower species.
