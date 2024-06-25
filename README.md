@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a comprehensive collection of Python programming concepts, techniques, and libraries applied to various tasks, including data analysis, machine learning, and more. It also contains different projects on Machine learning and statistical analysis. Each folder contains detailed information and codes for specific tasks, all developed using Jupyter Notebook.
+This repository contains a comprehensive collection of Python programming concepts, techniques, and libraries applied to various tasks, including data analysis, machine learning, and more. It also contains different projects on Machine learning and statistical analysis. Each folder contains detailed information and codes for specific task (all developed using Jupyter Notebook) as well as a `.md` file to explain every aspect of each folder.
 
 ---
 
