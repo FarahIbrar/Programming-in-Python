@@ -9,7 +9,7 @@ This project involves building and comparing classification models using two dif
 - The classification process aims to assist in medical diagnostics by predicting the nature of tumors, thereby aiding in treatment decisions and patient care strategies.
 
 ## Aim
-The aim of this project is to develop machine learning models that can accurately classify breast tumors as either malignant or benign using the provided dataset. By comparing the performance of Decision Tree and Logistic Regression algorithms, we aim to determine which model is more suitable for this classification task.
+The aim of the project is to develop machine learning models that can accurately classify breast tumors as either malignant or benign using the provided dataset. By comparing the performance of Decision Tree and Logistic Regression algorithms, we aim to determine which model is more suitable for this classification task.
 
 ## Need for the Project
 Breast cancer is a significant health concern globally, and early detection plays a crucial role in improving patient outcomes. Machine learning models can assist in automating and improving the accuracy of diagnosis based on medical data. This project serves to demonstrate the application of classification algorithms in medical diagnostics and to provide insights into model selection for similar tasks.
