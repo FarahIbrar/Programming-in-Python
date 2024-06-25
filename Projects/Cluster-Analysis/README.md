@@ -4,7 +4,7 @@
 This project performs cluster analysis on the Iris dataset using K-means clustering. The goal is to group the Iris flowers into distinct clusters based on their sepal and petal measurements.
 
 ## Aim
-The aim of this project is to identify natural groupings within the Iris dataset using unsupervised learning techniques. This analysis will help us understand how the data points are structured and if there are clear patterns that differentiate different species.
+The aim of this project is to identify natural groupings within the Iris dataset using unsupervised learning techniques. This analysis will help us understand how the data points are structured and if there are any clear patterns that differentiate different species.
 
 ## Need for the Project
 Cluster analysis is important for exploratory data analysis to uncover inherent structures within the data. By clustering Iris flowers, we can observe patterns and relationships that may not be immediately apparent, which can aid in further analysis or hypothesis testing.
