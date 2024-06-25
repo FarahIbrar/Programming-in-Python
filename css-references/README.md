@@ -6,7 +6,7 @@ This document provides an overview of commonly used CSS properties. If you would
 
 1. **Fork the Repository**: Start by forking this repository to your GitHub account.
 
-2. **Edit the File**: Make your changes to the `css_properties.rst` file.
+2. **Edit the File**: Make your changes to the `css_properties.rst` file and remember to follow the format.
 
 3. **Submit a Pull Request**: Once you have made your changes, submit a pull request explaining the additions you have made.
 
