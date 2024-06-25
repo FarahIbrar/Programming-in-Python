@@ -18,7 +18,7 @@ By conducting an EDA on the Iris dataset, we gain insights that can inform the d
 ## Steps Involved and Why They Were Needed
 
 ### Data Summarization
-- **Data Loading:** The Iris dataset was loaded using `load_iris()` from `sklearn.datasets`, and a DataFrame was created with meaningful labels for the features and species. This step prepares the dataset for analysis by adding meaningful labels to the data.
+- **Data Loading:** The Iris dataset was loaded using `load_iris()` from `sklearn.datasets`, and a DataFrame was created with meaningful labels for the features and species. This step prepares the dataset for analysis by adding meaningful labels to the data to make it easier for the upcoming steps.
   
 - **Descriptive Statistics:** The `describe()` function was used to get a summary of the central tendency, dispersion, and shape of the dataset’s distribution. This provides a quick overview of the data, including mean, standard deviation, and range.
   
