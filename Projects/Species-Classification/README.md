@@ -1,7 +1,7 @@
 # Project Report: Species Classification Using Machine Learning
 
 ## Description
-This project involves the classification of Iris flower species using machine learning techniques. The goal is to build models that accurately predict the species of Iris flowers based on their sepal and petal measurements.
+This project involves the classification of Iris flower species using Machine Learning techniques. The goal is to build models that accurately predict the species of Iris flowers based on their sepal and petal measurements.
 
 ## Aim
 The aim of this project is to compare different machine learning algorithms and select the best-performing model for classifying Iris flower species.
