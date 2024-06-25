@@ -6,7 +6,7 @@ This document "`html-elements.rst`" provides an overview of commonly used HTML e
 
 1. **Fork the Repository**: Start by forking this repository to your GitHub account.
 
-2. **Edit the File**: Make your changes to the `html_elements.rst` file.
+2. **Edit the File**: Make your changes to the `html_elements.rst` file and remember to follow the format.
 
 3. **Submit a Pull Request**: Once you have made your changes, submit a pull request explaining the additions or improvements you have made.
 
