@@ -19,5 +19,5 @@ Folder containing Jupyter Notebook-related materials.
 
 **Files:**
 - `Introduction to Jupyter Notebook.pdf`: Introduction to using Jupyter Notebooks.
-- `Jupyter Notebook (to remember).docx`: Additional notes and reminders for using Jupyter Notebooks.
+- `Jupyter Notebook (to remember).docx`: Additional notes, guides and reminders for using Jupyter Notebooks.
 
