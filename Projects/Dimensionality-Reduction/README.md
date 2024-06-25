@@ -4,7 +4,7 @@
 This project applies dimensionality reduction techniques, such as Principal Component Analysis (PCA) and t-distributed Stochastic Neighbor Embedding (t-SNE), to visualize the Iris dataset in lower dimensions. The goal is to understand how different species of Iris flowers are represented in a reduced-dimensional space and to explore if distinct clusters corresponding to the species can be identified.
 
 ## Aim
-The aim of the project is to employ PCA and t-SNE to reduce the dimensionality of the Iris dataset and visualize it in two dimensions. This visualization will help in understanding the separability of different Iris species based on their measurements.
+The aim of the project is to employ PCA and t-SNE to reduce the dimensionality of the Iris dataset and visualize it in two dimensions. This visualization will help in understanding the separability of different Iris species based on their measurements present in the dataset.
 
 ## Need for the Project
 Dimensionality reduction is a crucial step in data analysis and visualization, especially when dealing with high-dimensional datasets. By reducing the number of dimensions, we can:
