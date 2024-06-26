@@ -1,7 +1,11 @@
 # Data Science and Data Analysis Projects (Scikit-learn)
 
+---
+
 ## Overview
 This folder contains two projects that demonstrate the application of data science and data analysis techniques in financial forecasting and customer segmentation. The projects aim to provide valuable insights for business decision-making and enhance predictive capabilities using historical data.
+
+---
 
 ## Projects
 
@@ -45,6 +49,8 @@ The aim of this project is to segment customers into meaningful groups based on 
 - Derived actionable insights from data analysis and visualizations.
 - Understood the importance of handling outliers and selecting appropriate features for clustering.
 
+---
+
 ### Project 2: AAPL Stock Price Prediction with Machine Learning
 
 **Description**
@@ -87,8 +93,12 @@ To build a predictive machine learning model that accurately forecasts the closi
 - Evaluated and interpreted model performance metrics.
 - Communicated insights and findings through data visualization and documentation.
 
+---
+
 ## Conclusion
 Both projects successfully achieved their respective aims, demonstrating the application of data science and data analysis techniques in different domains. The customer segmentation project provided valuable insights for targeted marketing in e-commerce, while the stock price prediction project showcased the potential of predictive analytics in financial forecasting. These projects highlight the importance of data preprocessing, feature engineering, and model selection in building effective models.
+
+---
 
 ## What I Learned
 Through these projects, I gained comprehensive experience in:
