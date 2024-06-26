@@ -14,7 +14,7 @@ The project aims to:
 
 ## Steps Overview
 1. **Data Collection:** (Completed) Obtain historical stock data using `yfinance`.
-2. **Data Preprocessing:** Clean and preprocess the data.
+2. **Data Preprocessing:** Clean and preprocess the data using various techniques.
 3. **Exploratory Data Analysis (EDA):** Visualize and understand the data.
 4. **Feature Engineering and Selection:** Create and select relevant features for the model.
 5. **Model Selection, Training and Prediction:** Train different models and select the best one to make a prediction .
