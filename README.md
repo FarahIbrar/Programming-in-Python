@@ -147,11 +147,10 @@ All concepts and techniques covered can be found in the "Introduction, Python" f
   - Seaborn (`import seaborn as sns`).
 
 - **Machine Learning**:
-  - Scikit-learn (`from sklearn.model_selection import train_test_split, cross_val_score; from sklearn.metrics import ...`).
+  - Scikit-learn (for machine learning models and tools, including preprocessing, model selection, and evaluation) - `from sklearn.model_selection import train_test_split, cross_val_score; from sklearn.metrics import ...`.
   - Statsmodels (`import statsmodels.api as sm`).
   - TensorFlow (`import tensorflow as tf`), PyTorch (`import torch`).
-  - sklearn (for machine learning models and tools, including preprocessing, model selection, and evaluation).
-
+    
 - **Natural Language Processing (NLP)**:
   - NLTK (`import nltk`).
   - SpaCy (`import spacy`).
