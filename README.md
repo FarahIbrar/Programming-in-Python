@@ -349,8 +349,8 @@ In conclusion, this respository provided me with a comprehensive hands-on experi
 ### Setup
 1. Clone the repository:
  ```bash
-git clone https://github.com/your_username/project_name.git
-cd project_name
+git clone https://github.com/FarahIbrar/Programming-in-Python.git
+cd Programming-in-Python
 ```
 2. Install the required dependencies:
 ```bash
