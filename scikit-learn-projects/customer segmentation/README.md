@@ -60,7 +60,7 @@ Customer segmentation is crucial for:
 - Overall, the aim of the project has been met by effectively identifying and profiling customer segments.
 
 ## Conclusion
-The conclusion summarizes the achievement of project objectives, discusses findings, and outlines future improvements. It states if the aim of the project has been met and covers other aspects typically included in a conclusion.
+This project successfully segmented customers using **K-means clustering**, identifying distinct groups based on purchasing behaviour. The insights gained can inform targeted marketing, personalized experiences, and strategic business decisions, ultimately improving customer engagement and sales.
 
 ## Discussion
 ### Strengths:
